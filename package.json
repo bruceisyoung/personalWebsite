@@ -1,0 +1,22 @@
+{
+  "name": "personalwebsiteofshengyang",
+  "version": "1.0.0",
+  "description": "personal website for Sheng Yang (Bruce)",
+  "main": "server/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bruceisyoung/personalWebsite.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bruceisyoung/personalWebsite/issues"
+  },
+  "homepage": "https://github.com/bruceisyoung/personalWebsite#readme",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
