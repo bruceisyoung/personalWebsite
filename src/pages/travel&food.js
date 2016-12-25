@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-export class TravelFood extends Component {
+export default class TravelFood extends Component {
   render() {
     return (
       <div>

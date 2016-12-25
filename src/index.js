@@ -1,11 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-// import App from './components/app';
-// import routes from './components/router';
-// Render the router instead of any component.
-  // `<Provider store={store}>
-  //   {routes}
-  // </Provider>`
+// import App from '../components/app';
 
-ReactDOM.render(<p>haha</p>, document.getElementById('app'));
+
+ReactDOM.render(<p>xiha</p>, document.getElementById('app'));

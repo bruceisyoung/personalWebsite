@@ -4,6 +4,7 @@
   "description": "personal website for Sheng Yang (Bruce)",
   "main": "index.js",
   "scripts": {
+//why this one is not working??? need to figure out why
     "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p",
     "start": "node server.js"
@@ -27,7 +28,8 @@
     "react": "^15.4.1",
     "react-dom": "^15.4.1",
     "react-router": "^3.0.0",
-    "webpack": "^1.14.0"
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
   },
   "devDependencies": {
     "babel-preset-stage-1": "^6.16.0"
