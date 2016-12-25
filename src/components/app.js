@@ -13,7 +13,23 @@ import React, { Component } from 'react';
 export default class App extends Component {
   render() {
     return (
-      <p>xixi</p>
+      <div>
+      	<div >
+      		<p>Sheng Yang</p>
+      		<div id='nav'>
+      			<ul>
+      				<li><a>Home</a></li>
+      				<li><a>Portfolio</a></li>
+      				<li><a>Projects</a></li>
+      				<li><a>Experience</a></li>
+      				<li><a>Travel & Food</a></li>
+      				<li><a>Contact</a></li>
+      			</ul>
+      		</div>
+      	</div>
+      	<div>
+      	</div>
+      </div>
     );
   }
 }

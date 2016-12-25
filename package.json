@@ -4,7 +4,6 @@
   "description": "personal website for Sheng Yang (Bruce)",
   "main": "index.js",
   "scripts": {
-//why this one is not working??? need to figure out why
     "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p",
     "start": "node server.js"
