@@ -1,10 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {IndexRoute, Router, Route, browserHistory} from 'react-router';
 import App from './app';
 import Home from '../pages/home';
 import Portfolio from '../pages/portfolio';
 import Projects from '../pages/projects';
-import Experience from '../pages/experiences';
+import Experience from '../pages/experience';
 import TravelFood from '../pages/travel&food';
 import Contact from '../pages/contact';
 

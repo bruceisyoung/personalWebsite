@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { browserHistory } from 'react-router';
 // import Home from '../pages/home';
 // import { connect } from 'react-redux';
 // import { browserHistory } from 'react-router';
@@ -11,6 +12,10 @@ import React, { Component } from 'react';
           // })}
 
 export default class App extends Component {
+	redirect(pageTo) {
+	  browserHistory.push('/' + pageTo);
+	}
+
   render() {
     return (
       <div>
@@ -28,6 +33,10 @@ export default class App extends Component {
       		</div>
       	</div>
       	<div>
+      		{this.props.children && React.cloneElement(this.props.children, {
+            // this is where to pass props to all children components
+            redirect: this.redirect,
+          })}
       	</div>
       </div>
     );
