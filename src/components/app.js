@@ -16,6 +16,10 @@ export default class App extends Component {
 	  browserHistory.push('/' + pageTo);
 	}
 
+	pageClicked(page) {
+		this.redirect(page.target.id);
+	}
+
   render() {
     return (
       <div>
@@ -23,12 +27,12 @@ export default class App extends Component {
       		<p>Sheng Yang</p>
       		<div id='nav'>
       			<ul>
-      				<li><a>Home</a></li>
-      				<li><a>Portfolio</a></li>
-      				<li><a>Projects</a></li>
-      				<li><a>Experience</a></li>
-      				<li><a>Travel & Food</a></li>
-      				<li><a>Contact</a></li>
+      				<li><a onClick={this.pageClicked.bind(this)} id='home'>Home</a></li>
+      				<li><a onClick={this.pageClicked.bind(this)} id='portfolio'>Portfolio</a></li>
+      				<li><a onClick={this.pageClicked.bind(this)} id='projects'>Projects</a></li>
+      				<li><a onClick={this.pageClicked.bind(this)} id='experience'>Experience</a></li>
+      				<li><a onClick={this.pageClicked.bind(this)} id='travel&food'>Travel & Food</a></li>
+      				<li><a onClick={this.pageClicked.bind(this)} id='contact'>Contact</a></li>
       			</ul>
       		</div>
       	</div>
