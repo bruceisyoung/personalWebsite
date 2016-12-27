@@ -12,21 +12,24 @@ export default class App extends Component {
 
   render() {
     return (
-      <div>
-      	<div >
+      <div id='container'>
+      	<aside className='menu' id='menu'>
       		<p>Sheng Yang</p>
-      		<div id='nav'>
-      			<ul>
-      				<li><a onClick={this.pageClicked.bind(this)} id='home'>Home</a></li>
-      				<li><a onClick={this.pageClicked.bind(this)} id='portfolio'>Portfolio</a></li>
-      				<li><a onClick={this.pageClicked.bind(this)} id='projects'>Projects</a></li>
-      				<li><a onClick={this.pageClicked.bind(this)} id='experience'>Experience</a></li>
-      				<li><a onClick={this.pageClicked.bind(this)} id='travel&food'>Travel & Food</a></li>
-      				<li><a onClick={this.pageClicked.bind(this)} id='contact'>Contact</a></li>
-      			</ul>
-      		</div>
-      	</div>
-      	<div>
+      		<nav id='menu1' className='jspScrollable'>
+      			<div className='jspContainer'>
+		      		<div className='jspPane'>
+		    				<a onClick={this.pageClicked.bind(this)} id='home'><span>Home</span></a>
+		    				<a onClick={this.pageClicked.bind(this)} id='portfolio'><span>Portfolio</span></a>
+		    				<a onClick={this.pageClicked.bind(this)} id='projects'><span>Projects</span></a>
+		    				<a onClick={this.pageClicked.bind(this)} id='experience'><span>Experience</span></a>
+		    				<a onClick={this.pageClicked.bind(this)} id='travel&food'><span>Travel & Food</span></a>
+		    				<a onClick={this.pageClicked.bind(this)} id='contact'><span>Contact</span></a>
+		      		</div>
+	      			<div className='jspVerticalBar'></div>
+	      		</div>
+      		</nav>
+      	</aside>
+      	<div id='canvas'>
       		{this.props.children && React.cloneElement(this.props.children, {
             // this is where to pass props to all children components
             redirect: this.redirect,
