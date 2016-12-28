@@ -22,11 +22,11 @@ export default class App extends Component {
   render() {
     return (
       <div id='container'>
-      	<aside className='menu' id='menu'>
+      	<div className='menu' id='menu'>
       		<p>Sheng Yang</p>
-      		<nav id='menu1' className='jspScrollable'>
-      			<div className='jspContainer'>
-		      		<div className='jspPane'>
+      		<nav>
+      			<div>
+		      		<div>
 		    				<a onClick={this.pageClicked.bind(this)}><span id='home'>Home</span></a>
 		    				<a onClick={this.pageClicked.bind(this)}><span id='portfolio'>Portfolio</span></a>
                 <a onClick={this.pageClicked.bind(this)}><span id='skills'>Skills</span></a>
@@ -36,10 +36,10 @@ export default class App extends Component {
 		    				<a onClick={this.pageClicked.bind(this)}><span id='travelfood'>Travel & Food</span></a>
 		    				<a onClick={this.pageClicked.bind(this)}><span id='contact'>Contact</span></a>
 		      		</div>
-	      			<div className='jspVerticalBar'></div>
+	      			<div className='VerticalBar'></div>
 	      		</div>
       		</nav>
-      	</aside>
+      	</div>
       	<div id='canvas'>
       		{this.props.children && React.cloneElement(this.props.children, {
             // this is where to pass props to all children components
