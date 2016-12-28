@@ -4,7 +4,9 @@ import App from './app';
 import Home from '../pages/home';
 import Portfolio from '../pages/portfolio';
 import Projects from '../pages/projects';
+import Skills from '../pages/skills';
 import Experience from '../pages/experience';
+import Education from '../pages/education';
 import TravelFood from '../pages/travel&food';
 import Contact from '../pages/contact';
 
@@ -16,8 +18,10 @@ const routes = (
       <Route path='home' component={ Home } />
       <Route path='portfolio' component={ Portfolio } />
       <Route path='projects' component={ Projects } />
+      <Route path='skills' component={ Skills } />
       <Route path='experience' component={ Experience } />
-      <Route path='travel&food' component={ TravelFood } />
+      <Route path='education' component={ Education } />
+      <Route path='travelfood' component={ TravelFood } />
       <Route path='contact' component={ Contact } />
     </Route>
   </Router>
