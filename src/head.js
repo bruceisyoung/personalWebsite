@@ -1,10 +1,10 @@
 head.js(
-  { mousewheel: './lib/jquery.mousewheel.js' },
-  { mwheelIntent: './lib/mwheelIntent.js' },
-  { jScrollPane: './lib.jquery.jscrollpane.min.js' },
-  { history: './lib/jquery.history.js' },
-  { stringLib: './lib/core.string.js' },
-  { easing: './lib/jquery.easing.1.3.js' },
-  { smartresize: './lib/jquery.smartresize.js' },
-  { page: './lib/jquery.page.js' }
+  { mousewheel: './src/lib/jquery.mousewheel.js' },
+  { mwheelIntent: './src/lib/mwheelIntent.js' },
+  { jScrollPane: './src/lib/jquery.jscrollpane.min.js' },
+  { history: './src/lib/jquery.history.js' },
+  { stringLib: './src/lib/core.string.js' },
+  { easing: './src/lib/jquery.easing.1.3.js' },
+  { smartresize: './src/lib/jquery.smartresize.js' },
+  { page: './src/lib/jquery.page.js' }
 );

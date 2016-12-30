@@ -26,7 +26,7 @@ export default class App extends Component {
 	      		</div>
       		</nav>
       	</aside>
-      	<div className='content-scroller' style={{'overflow-x': 'hidden'}}>
+      	<div className='content-scroller' style={{overflowX: 'hidden'}}>
           <div className='content-wrapper'>
             <Home />
             <Portfolio />
