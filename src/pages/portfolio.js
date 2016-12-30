@@ -3,8 +3,7 @@ import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
     return (
-      <article className='content about white-bg jspScrollable' id='chapterportfolio' tabIndex='0' 
-        style={{overflow: 'hidden', padding: '0px', width: '700px', 'outline': 'none'}}>
+      <article className='content about white-bg' id='chapterportfolio'>
         <div className='jspContainer'>
           <div className='jspPane'>
             <div className='inner'>

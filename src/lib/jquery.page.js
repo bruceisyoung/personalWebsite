@@ -27,7 +27,6 @@ var pagetitle=$(document).find("title").text();
 			init	= function() {
 			
 			// initialize the jScrollPane on both the menu and articles
-			console.log('links: ', $links);
 			_initCustomScroll();
 			// initialize some events
 			_initEvents();
@@ -45,6 +44,7 @@ var pagetitle=$(document).find("title").text();
 					$articles.jScrollPane( scrollOptions );
 				}
 				// add custom scroll to menu
+				console.log($menu.children( 'nav' ));
 				$menu.children( 'nav' ).jScrollPane( scrollOptions );
 			},
 
@@ -54,37 +54,36 @@ var pagetitle=$(document).find("title").text();
 				var chapter 	= chapter || History.getState().url.queryStringToJSON().page,
 					isHome		= ( chapter === undefined ),
 					// we will jump to the introduction chapter if theres no chapter
-					$article 	= $( chapter ? '#' + 'chapter' + chapter : '#' + 'home' );				
+					$article 	= $( chapter ? '#' + 'chapter' + chapter : '#' + 'home' );
 
-					console.log('goto: article', chapter ? '#' + 'chapter' + chapter : '#' + 'home')
-					$('#link_home').removeClass('active');
-					$('#link_portfolio').removeClass('active');
-					$('#link_skills').removeClass('active');
-					$('#link_projects').removeClass('active');
-					$('#link_experience').removeClass('active');
-					$('#link_education').removeClass('active');
-					$('#link_travelfood').removeClass('active');
-					$('#link_contact').removeClass('active');
-					
-					$('#link_'+chapter).addClass('active');
-					console.log('#link_'+chapter);
+				$('#link_home').removeClass('active');
+				$('#link_portfolio').removeClass('active');
+				$('#link_skills').removeClass('active');
+				$('#link_projects').removeClass('active');
+				$('#link_experience').removeClass('active');
+				$('#link_education').removeClass('active');
+				$('#link_travelfood').removeClass('active');
+				$('#link_contact').removeClass('active');
+				
+				$('#link_'+chapter).addClass('active');
+		 
 				if( $article.length ) {
 						// left / top of the element
-					var left		= $article.position().left,
-						top			= $article.position().top,
-						// check if we are scrolling down or left
-						// is_v will be true when the screen size < 715
-						is_v		= ( $(document).height() - $(window).height() > 0 ),
-						// animation parameters:
-						// if vertically scrolling then the body will animate the scrollTop,
-						// otherwise the scroller (div.content-scroller) will animate the scrollLeft
-						param		= ( is_v ) ? { scrollTop : (isHome) ? top : top + $menu.outerHeight( true ) } : { scrollLeft : left },
-						$elScroller	= ( is_v ) ? $( 'html, body' ) : $scroller;
+					var left = $article.position().left,
+						  top	= $article.position().top,
+							// check if we are scrolling down or left
+							// is_v will be true when the screen size < 715
+							is_v		= ( $(document).height() - $(window).height() > 0 ),
+							// animation parameters:
+							// if vertically scrolling then the body will animate the scrollTop,
+							// otherwise the scroller (div.content-scroller) will animate the scrollLeft
+							param		= ( is_v ) ? { scrollTop : (isHome) ? top : top + $menu.outerHeight( true ) } : { scrollLeft : left },
+							$elScroller	= ( is_v ) ? $( 'html, body' ) : $scroller;
 
 					$elScroller.stop().animate( param, animation.speed, animation.easing, function() {
 						// active class for selected chapter
-						///$articles.removeClass( 'content-active' );
-						//$article.addClass( 'content-active' );
+						$articles.removeClass( 'content-active' );
+						$article.addClass( 'content-active' );
 					} );
 				}
 			},
@@ -177,7 +176,6 @@ var pagetitle=$(document).find("title").text();
 					},
 					// triggered when the history state changes - jumps to the respective chapter
 					'statechange' : function( event ) {
-						console.log('statechange: ', event);
 						_goto();
 					}
 				});
@@ -191,7 +189,6 @@ var pagetitle=$(document).find("title").text();
 				// the statechange of the window is then triggered and the page/scroller scrolls to the 
 				// respective chapter's position
 				$(window).on( 'click', 'nav a', function( event ) {
-					console.log('clicked ');
 					var href = $(this).attr('href'),
 					chapter	= ( href.search(/chapter/) !== -1 ) ? href.substring(8) : 0;
 					
