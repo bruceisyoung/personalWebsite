@@ -13,7 +13,7 @@
 			//alert('resize');
 			// Save the context
 			var context = this,
-				args 	= arguments;
+			args 	= arguments;
 
 			// set correct event type
 			event.type = "smartresize";
@@ -25,7 +25,7 @@
 		}
 	};
 
-	$.fn.smartresize 			= function( fn ) {
+	$.fn.smartresize = function( fn ) {
 		return fn ? this.bind( "smartresize", fn ) : this.trigger( "smartresize", ["execAsap"] );
 	};
 })( window, jQuery );

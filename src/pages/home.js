@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Home extends Component {
   render() {
     return (
-	    <article className='content introduction noscroll' id='chapterHome'>
+	    <article className='content introduction noscroll' id='chapterhome'>
         <div className='inner'>
         	<h2>
         		<span>HELLO, I'M</span>

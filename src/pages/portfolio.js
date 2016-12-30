@@ -3,10 +3,10 @@ import React, { Component } from 'react';
 export default class Portfolio extends Component {
   render() {
     return (
-      <article className='content about white-bg jspScrollable' id='chapterPortfolio' tabIndex='0' 
+      <article className='content about white-bg jspScrollable' id='chapterportfolio' tabIndex='0' 
         style={{overflow: 'hidden', padding: '0px', width: '700px', 'outline': 'none'}}>
-        <div className='jspContainer' style={{width: '700px', height: '394px'}}>
-          <div className='jspPane' style={{padding: '0px', width: '695px', top: '0px'}}>
+        <div className='jspContainer'>
+          <div className='jspPane'>
             <div className='inner'>
               <h2>About Me</h2>
               <div className='title-divider'></div>

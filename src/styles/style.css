@@ -408,7 +408,8 @@ h5 {
 }
 .menu nav a span.active {
     color: #ee6817;
-    font-weight: 400
+    font-size: 16px;
+    font-weight: 800;
 }
 .menu nav a:hover {
     color: #ee6817;
