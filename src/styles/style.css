@@ -360,21 +360,6 @@ h5 {
 /* ==========================================================================
    #Left Side 
    ========================================================================== */
-#menu1 {
-  overflow: hidden;
-  padding: 0px; 
-  width: 200px;
-  outline: none;
-}
-#menuContainer {
-  width: 200px;
-  height: 246px;
-}
-#menuPane {
-  padding: 0px; 
-  width: 195px; 
-  top: 0px
-}
 .logo {
     text-align: center;
     margin: 30px 0 0;
