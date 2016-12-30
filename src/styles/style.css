@@ -1312,9 +1312,3 @@ iframe, embed, object {
         width:auto;
     }
 }
-
-.buy-theme {position:fixed; bottom:0; border-radius: 0; left: 47px; background: url("../images/buy-theme.png") no-repeat 91% center #000; z-index: 10;  transition-timing-function: ease-in-out; -moz-transition-timing-function: ease-in-out; -webkit-transition-timing-function: ease-in-out; -o-transition-timing-function: ease-in-out; transition-duration: .2s; -moz-transition-duration: .2s; -webkit-transition-duration: .2s; -o-transition-duration: .2s;}
-.buy-theme:hover {left: 170px}
-.buy-theme span {padding:0 28px; position: relative; top:0; opacity: 0}
-.buy-theme:hover span {opacity: 1}
-.buy-theme a { color: #fff; font-size: 11px; letter-spacing: 1px; text-transform: uppercase; padding:8px 15px; display: block }
