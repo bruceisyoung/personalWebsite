@@ -1,6 +1,11 @@
 import React, { Component } from 'react';
 
 import Menu from './menu';
+import VerticalBar from './verticalBar'
+
+import Home from '../pages/home'
+import Portfolio from '../pages/portfolio';
+
 
 const pages = ['home', 'portfolio', 'skills', 'projects', 'experience', 'education', 'travelfood', 'contact'];
 
@@ -17,11 +22,15 @@ export default class App extends Component {
       		<nav id='menu1' role='navigation' className='jspScrollable' tabIndex='0'>
       			<div id='menuContainer'  className='jspContainer'>
               <Menu />
-	      			<div className='VerticalBar'></div>
+              <VerticalBar />
 	      		</div>
       		</nav>
       	</aside>
-      	<div id='canvas'>
+      	<div className='content-scroller' style={{'overflow-x': 'hidden'}}>
+          <div className='content-wrapper'>
+            <Home />
+            <Portfolio />
+          </div>
       	</div>
       </div>
     );
