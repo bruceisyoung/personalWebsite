@@ -5,6 +5,7 @@ import Menu from './menu';
 import Home from '../pages/home'
 import Portfolio from '../pages/portfolio';
 import Projects from '../pages/projects';
+import Contact from '../pages/contact';
 
 
 const pages = ['home', 'portfolio', 'skills', 'projects', 'experience', 'education', 'travelfood', 'contact'];
@@ -42,6 +43,7 @@ export default class App extends Component {
             <Home />
             <Portfolio />
             <Projects />
+            <Contact />
           </div>
       	</div>
       </div>

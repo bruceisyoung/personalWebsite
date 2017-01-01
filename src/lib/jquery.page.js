@@ -44,7 +44,6 @@ var pagetitle=$(document).find("title").text();
 					$articles.jScrollPane( scrollOptions );
 				}
 				// add custom scroll to menu
-				console.log($menu.children( 'nav' ));
 				$menu.children( 'nav' ).jScrollPane( scrollOptions );
 			},
 

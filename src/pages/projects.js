@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Projects extends Component {
   render() {
     return (
-      <article className='content about white-bg' id='chapterprojects'>
+      <article className='content about gray-bg' id='chapterprojects'>
         <div className='jspContainer'>
           <div className='jspPane'>
             <div className='inner'>
