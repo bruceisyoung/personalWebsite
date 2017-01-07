@@ -44,6 +44,7 @@ export default class App extends Component {
             <Home />
             <Portfolio />
             <Projects />
+            <Education />
             <Contact />
           </div>
       	</div>

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Education extends Component {
   render() {
     return (
-			<article>
+			<article className='content about white-bg' id='chaptereducation'>
 				<div class='inner'>
 					<h2>Education</h2>
 					<div class="title-divider"></div>
