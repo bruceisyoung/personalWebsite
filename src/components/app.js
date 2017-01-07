@@ -7,6 +7,7 @@ import Portfolio from '../pages/portfolio';
 import Projects from '../pages/projects';
 import Education from '../pages/education';
 import Contact from '../pages/contact';
+import End from '../pages/end';
 
 
 const pages = ['home', 'portfolio', 'skills', 'projects', 'experience', 'education', 'travelfood', 'contact'];
@@ -46,6 +47,7 @@ export default class App extends Component {
             <Projects />
             <Education />
             <Contact />
+            <End />
           </div>
       	</div>
       </div>
