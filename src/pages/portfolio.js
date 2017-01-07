@@ -23,7 +23,7 @@ export default class Portfolio extends Component {
                 frameworks, including React / Redux, React Native, Angular, Node.js. Currently 
                 seeking an opportunity within an innovative company that challenges to perfect 
                 skills and support professional development.</p>
-                <a href='#' className='button'>Download resume as PDF format</a>
+                <a href='../files/Resume.pdf' className='button'>Download resume as PDF format</a>
               </div>
             </div>
           </div>
