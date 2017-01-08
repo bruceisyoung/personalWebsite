@@ -99,14 +99,8 @@ export default class Skills extends Component {
                   </div>
                 </div>
                 <div className="progressbar-main margin-top40">
-                  <div className="progress-bar-description">French Advanced</div>
+                  <div className="progress-bar-description">Mandarin Experienced 【中文，母语】</div>
                   <div id="progressBar2" className="progress">
-                    <div className="progress-value"></div>
-                  </div>
-                </div>
-                <div className="progressbar-main margin-top40">
-                  <div className="progress-bar-description">German Basic</div>
-                  <div id="progressBar3" className="progress">
                     <div className="progress-value"></div>
                   </div>
                 </div>
