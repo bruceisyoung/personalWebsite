@@ -47,28 +47,42 @@ export default class Skills extends Component {
               <div className="row">
                 <h3>Knowledge</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
-                <div className="col-4 margin-top10">
+                <div className="col-3 margin-top10">
+                  <h5>Frameworks</h5>
                   <ul>
-                    <li>Google Analythics & SEO</li>
-                    <li>Instal and Configure</li>
-                    <li>E-commerce Platform</li>
-                    <li>Color theory knowledge</li>
+                    <li>React & Redux</li>
+                    <li>React-Native</li>
+                    <li>Node & Express</li>
+                    <li>Angular</li>
+                    <li>Backbone</li>
                   </ul>
                 </div>
-                <div className="col-4 margin-top10">
+                <div className="col-3 margin-top10">
+                	<h5>Tools</h5>
                   <ul>
-                    <li>Photo manipulation skills</li>
-                    <li>Digital Painting</li>
-                    <li>Photo Composition</li>
-                    <li>Good sense of Tipography</li>
+                    <li>Git & Github</li>
+                    <li>TDD</li>
+                    <li>Exponent</li>
+                    <li>RESTful / APIs</li>
+                    <li>socket.io</li>
                   </ul>
                 </div>
-                <div className="col-4 margin-top10">
+                <div className="col-3 margin-top10">
+                	<h5>Databases</h5>
                   <ul>
-                    <li>Web Usability</li>
-                    <li>Grid & Layout</li>
-                    <li>Portrait Retouching</li>
-                    <li>Video Editing</li>
+                    <li>MongoDB</li>
+                    <li>MySQL</li>
+                    <li>SQLite</li>
+                    <li>Redis</li>
+                  </ul>
+                </div>
+                <div className="col-3 margin-top10">
+                	<h5>Deployment</h5>
+                  <ul>
+                    <li>AWS</li>
+                    <li>Docker</li>
+                    <li>Heroku</li>
+                    <li>DigitalOcean</li>
                   </ul>
                 </div>
               </div>
