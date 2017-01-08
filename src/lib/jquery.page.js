@@ -1,6 +1,5 @@
-$(document).load(function() {
-	
-	var pagetitle=$(document).find("title").text();
+$(window).load(function() {
+  var pagetitle=$(document).find("title").text();
 
 	(function(window, undefined) {
 		"use strict"; 	
@@ -14,7 +13,7 @@ $(document).load(function() {
 				$links				= $menu.find( 'nav > a' ),
 				$articles			= $container.find( 'div.content-wrapper > article' ).not(".noscroll"),
 				
-			
+		
 				
 				// button to scroll to the top of the page
 				// only shown when screen size < 715
@@ -24,7 +23,7 @@ $(document).load(function() {
 				// animation options
 				animation			= { speed : 800, easing : 'easeInOutExpo' },
 				// jScrollPane options
-				scrollOptions		= { verticalGutter : 0, hideFocus : true },
+				scrollOptions		= { verticalGutter : 0, hideFocus : true},
 				// init function
 				init				= function() {
 					
@@ -45,14 +44,16 @@ $(document).load(function() {
 					// Only add custom scroll to articles if screen size > 715.
 					// If not the articles will be expanded
 					if( $(window).width() > 767 ) {
-						$(window).load(function) {
-  						$articles.jScrollPane( scrollOptions );
-						}
+						
+						$(window).on('load', function() {
+							$articles.jScrollPane( scrollOptions );
+						});
 					}
+
 					// add custom scroll to menu
-					$(window).load(function) {
-  					$menu.children( 'nav' ).jScrollPane( scrollOptions );
-					}
+					$(window).on('load', function() {
+						$menu.children( 'nav' ).jScrollPane( scrollOptions );
+					});
 				},
 				_goto				= function( chapter ) {
 					$(document).attr("title",pagetitle);
@@ -179,7 +180,7 @@ $(document).load(function() {
 									
 									if( $(window).width() > 767 ) {
 										
-										( aJSP === undefined ) ? $article.jScrollPane( scrollOptions ) : aJSP.reinitialise();
+										( aJSP === undefined ) ? $(window).on('load', function() {$article.jScrollPane( scrollOptions )}) : aJSP.reinitialise();
 										
 										_initArticleEvents();
 										
@@ -197,7 +198,7 @@ $(document).load(function() {
 								});
 								
 								var nJSP = $menu.children( 'nav' ).data( 'jsp' );
-								(nJSP === undefined) ? $menu.children( 'nav' ).jScrollPane( scrollOptions ) : nJSP.reinitialise();
+								(nJSP === undefined) ? $(window).on('load', function() {$menu.children( 'nav' ).jScrollPane( scrollOptions )}) : nJSP.reinitialise();
 								
 								// jumps to the current chapter
 								_goto();

@@ -51,7 +51,7 @@ $(document).ready(function() {
 						minDif = 3;
 					}, 1500);
 					e = $.extend({}, e, {type: 'mwheelIntent'});
-		            return $.event.handle.apply(this, arguments);
+		            return $.event.handlers.apply(this, arguments);
 				}
 		    }
 		};
