@@ -13,31 +13,31 @@ export default class Skills extends Component {
             <div className="container-sub margin-top50">
               <div className="row">
                 <div className="col-6 margin-bottom50">
-                  <div className="col-6"><span className="chart" data-percent="75"><span className="percent"></span> </span></div>
+                  <div className="col-6"><span className="chart" data-percent="90"><span className="percent"></span> </span></div>
                   <div className="col-6 chart-text">
                     <h4>Javascript</h4>
                     <p>Expert</p>
                   </div>
                 </div>
                 <div className="col-6 margin-bottom50">
-                  <div className="col-6"><span className="chart" data-percent="88"><span className="percent"></span> </span></div>
+                  <div className="col-6"><span className="chart" data-percent="80"><span className="percent"></span> </span></div>
                   <div className="col-6 chart-text">
-                    <h4>HTML5 CSS3</h4>
+                    <h4>HTML5 + CSS3</h4>
                     <p>Advanced</p>
                   </div>
                 </div>
                 <div className="col-6">
-                  <div className="col-6"><span className="chart" data-percent="90"><span className="percent"></span> </span></div>
+                  <div className="col-6"><span className="chart" data-percent="95"><span className="percent"></span> </span></div>
                   <div className="col-6 chart-text">
                     <h4>React + Redux</h4>
-                    <p>Expert, 8 years</p>
+                    <p>Expert</p>
                   </div>
                 </div>
                 <div className="col-6">
-                  <div className="col-6"><span className="chart" data-percent="96"><span className="percent"></span> </span></div>
+                  <div className="col-6"><span className="chart" data-percent="85"><span className="percent"></span> </span></div>
                   <div className="col-6 chart-text">
-                    <h4>HTML5 CSS3</h4>
-                    <p>Expert, 8 years</p>
+                    <h4>Node + Express</h4>
+                    <p>Advanced</p>
                   </div>
                 </div>
               </div>
