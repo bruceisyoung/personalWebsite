@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).load(function() {
 	
 	var pagetitle=$(document).find("title").text();
 
@@ -45,12 +45,14 @@ $(document).ready(function() {
 					// Only add custom scroll to articles if screen size > 715.
 					// If not the articles will be expanded
 					if( $(window).width() > 767 ) {
-						$articles.jScrollPane();
-					
+						$(window).load(function) {
+  						$articles.jScrollPane( scrollOptions );
+						}
 					}
 					// add custom scroll to menu
-					$menu.children( 'nav' ).jScrollPane();
-				
+					$(window).load(function) {
+  					$menu.children( 'nav' ).jScrollPane( scrollOptions );
+					}
 				},
 				_goto				= function( chapter ) {
 					$(document).attr("title",pagetitle);
@@ -90,8 +92,8 @@ $(document).ready(function() {
 						$elScroller.stop().animate( param, animation.speed, animation.easing, function() {
 							
 							// active class for selected chapter
-							///$articles.removeClass( 'content-active' );
-							//$article.addClass( 'content-active' );
+							$articles.removeClass( 'content-active' );
+							$article.addClass( 'content-active' );
 							
 							
 						} );
@@ -217,10 +219,7 @@ $(document).ready(function() {
 					// and we save the state on the history obj.
 					// the statechange of the window is then triggered and the page/scroller scrolls to the 
 					// respective chapter's position
-					console.log('links: ', $menu, $links);
 					$links.on( 'click', function( event ) {
-						console.log($links);
-						console.log(event.target, $(this));
 						var href		= $(this).attr('href'),
 							chapter		= ( href.search(/chapter/) !== -1 ) ? href.substring(8) : 0;
 						_saveState( chapter );
