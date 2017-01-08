@@ -5,7 +5,7 @@ export default class Projects extends Component {
     return (
       <article className='content about gray-bg' id='chapterprojects'>
         <div className='inner'>
-          <h2>About Me</h2>
+          <h2>Projects</h2>
           <div className='title-divider'></div>
           <div className='about-con'>
             <ul>

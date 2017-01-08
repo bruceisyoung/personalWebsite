@@ -4,6 +4,7 @@ import Menu from './menu';
 
 import Home from '../pages/home'
 import Portfolio from '../pages/portfolio';
+import Skills from '../pages/skills';
 import Projects from '../pages/projects';
 import Education from '../pages/education';
 import Contact from '../pages/contact';
@@ -40,6 +41,7 @@ export default class App extends Component {
           <div className='content-wrapper'>
             <Home />
             <Portfolio />
+            <Skills />
             <Projects />
             <Education />
             <Contact />
