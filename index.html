@@ -27,8 +27,30 @@
     <script src='./src/lib/jquery.min.js'></script>
     <script src='./src/lib/head.min.js'></script>
 
+    <!-- Portfolio Thumbnail -->
+    <script type="text/javascript" src="./src/lib/imagesloaded.min.js"></script>
+    <script type="text/javascript" src="./src/lib/masonry.min.js"></script>
+    <script type="text/javascript" src="./src/lib/class_helper.js"></script>
+    <script type="text/javascript" src="./src/lib/grid_gallery.js"></script>
+
+    <!-- Portfolio Slider -->
+    <script type="text/javascript" src="./src/lib/carousel.js"></script>
+    <script type="text/javascript" src="./src/lib/jquery.easypiechart.js"></script>
+    <script type="text/javascript" src="./src/lib/text.rotator.js"></script>
+
     <!-- Page Scrolling -->
-    <script src='./src/head.js'></script>
+    <script>
+      head.js(
+        { mousewheel : "./src/lib/jquery.mousewheel.js" },
+        { mwheelIntent : "./src/lib/mwheelIntent.js" },
+        { jScrollPane : "./src/lib/jquery.jscrollpane.min.js" },
+        { history : "./src/lib/jquery.history.js" },
+        { stringLib : "./src/lib/core.string.js" },
+        { easing : "./src/lib/jquery.easing.1.3.js" },
+        { smartresize : "./src/lib/jquery.smartresize.js" },
+        { page : "./src/lib/jquery.page.js" }
+      );
+    </script>
     <script type='text/javascript' src='./src/lib/jquery.mousewheel.js'></script>
     <script type='text/javascript' src='./src/lib/mwheelIntent.js'></script>
     <script type='text/javascript' src='./src/lib/jquery.jscrollpane.min.js'></script>
