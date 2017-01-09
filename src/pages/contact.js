@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Contact extends Component {
   render() {
     return (
-			<article className='content contact gray-bg' id='chaptercontact'>
+			<article className='content contact white-bg' id='chaptercontact'>
         <div className='inner'>
           <h2>Contact</h2>
           <div className='title-divider'></div>
