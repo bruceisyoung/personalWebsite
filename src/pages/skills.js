@@ -1,17 +1,5 @@
 import React, { Component } from 'react';
 
-// Architect, design and develop mobile/web application using Restful Services on Node.js.
-// Production JavaScript application design and testing experience.
-// Solid knowledge of frameworks such as React and Flux/Redux or Backbone/Angular/Ember
-// Experience with web frontend technologies such as HTML5, CSS3, Webpack, LESS, Bootstrap, and jQuery/Dojo/YUI.
-// Solid knowledge of algorithms, design patterns, and componentization approaches.
-// Experience with cross-browser, cross-platform, and design constraints on the web.
-
-
-// Work with cloud environments like AWS, Google, Microsoft
-// Work with Hardware prototyping teams.
-// Knowledge of proximity technologies like BLE, NFC, Zigbee etc.
-
 export default class Skills extends Component {
   render() {
     return (
@@ -58,7 +46,8 @@ export default class Skills extends Component {
             <div className="container-sub skill-list">
               <div className="row">
                 <h3>Knowledge</h3>
-                <p>shahahahaha</p>
+                <p>I love working as a full-stack engineer as it grants me the chance to have a truly hands-on experience with every aspect of application development and in the formation of a comprehensive understanding of software optimizaiton. Buiding apps which are modulized, testable, relibable, portable and scalable is my passion. This passion encourages me to do more and to learn more. </p>
+                <p>During past application development experience, I gained solid knowledge of frameworks and front end technologies (such as webpack, bootstrap, jQuery). I also developed a deeper understanding of algorithms, design patterns, OO programming and componentization approaches. I have experiences with cross-browser, cross-platform, and design constraints. All these components bring numerous benefits as a software developer.</p>
                 <div className="col-3 margin-top10">
                   <h5>Frameworks</h5>
                   <ul>
@@ -103,6 +92,8 @@ export default class Skills extends Component {
             <div className="container-sub">
               <div className="row">
                 <h3>Language Skills</h3>
+                <p>As a native Chinese speaker, living in US for the last six years, my language abilities have enabled me to work and thrive in both English and Chinese working environments. I have always had a huge passion for learning new languages as I find the diversity of this world so fascinating. I think learning different languages can be the tool to explore new life possibilities. I plan to add study Spanish and Japanese in the future to add to my life of languages.
+</p>
                 <div className="progressbar-main margin-top50">
                   <div className="progress-bar-description">English Proficient</div>
                   <div id="progressBar" className="progress">
