@@ -3,12 +3,12 @@ import React, { Component } from 'react';
 export default class Education extends Component {
   render() {
     return (
-			<article className='content about white-bg' id='chaptereducation'>
+			<article className='content education white-bg' id='chaptereducation'>
 				<div className='inner'>
 					<h2>Education</h2>
 					<div className="title-divider"></div>
 					<h3>Just My Education</h3>
-					<p>say something!!!!!!@#$%^&*()(*&^%$#$%^&*(</p>
+					<p>say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(</p>
 					<div className="education-con">
             <div className="container-sub">
               <div className="full-divider"></div>
@@ -22,7 +22,9 @@ export default class Education extends Component {
                       <span>San Francisco, CA</span> <br />
                       <span>2016</span> </div>
                   </div>
-                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+                    something!@#$%^&*()_+
+                  </div>
                 </div>
                 <div className="full-divider"></div>
                 <div className="education-details">
@@ -36,7 +38,13 @@ export default class Education extends Component {
                       <span>2008 - 2011</span>
                     </div>
                   </div>
-                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+                    <ul>
+                      <li>GPA: 3.80</li>
+                      <li>top 3 student</li>
+                      <li>published 2 papers in </li>
+                    </ul>
+                  </div>
                 </div>
                 <div className="full-divider"></div>
                 <div className="education-details">
@@ -50,7 +58,9 @@ export default class Education extends Component {
                       <span>2010 - 2011</span>
                     </div>
                   </div>
-                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+                    somdsafdksafskalfsklafksaf
+                  </div>
                 </div>
                 <div className="full-divider"></div>
                 <div className="education-details">
@@ -64,7 +74,9 @@ export default class Education extends Component {
                       <span>2004 - 2005</span>
                     </div>
                   </div>
-                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
+                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+                    somedkfnaldkfakshfashfjkashf
+                  </div>
                 </div>
               </div>
             </div>
