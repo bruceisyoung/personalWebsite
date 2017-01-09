@@ -17,8 +17,9 @@ export default class Education extends Component {
                   <div className="col-6 margin-bottom50 margin-top50">
                     <div className="col-3 icon-block"><i className="fa fa-photo"></i></div>
                     <div className="flot-left">
-                      <h5>Hack Reactor</h5>
-                      <h4>#$%^&*</h4>
+                      <h4>Hack Reactor</h4>
+                      <h5>immersive fullstack development program</h5>
+                      <span>San Francisco, CA</span> <br />
                       <span>2016</span> </div>
                   </div>
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. </div>
@@ -28,9 +29,10 @@ export default class Education extends Component {
                   <div className="col-6 margin-bottom50 margin-top50">
                     <div className="col-3 icon-block"><i className="fa fa-laptop"></i></div>
                     <div className="flot-left">
-                      <h5>Fudan University</h5>
-                      <h4>Master of Science</h4>
-                      <span>Micro-Electronics</span><br />
+                      <h4>Fudan University</h4>
+                      <h5>Micro-Electronics</h5>
+                      <h5>M.S.</h5>
+                      <span>Shanghai, China</span><br />
                       <span>2008 - 2011</span>
                     </div>
                   </div>
@@ -41,9 +43,10 @@ export default class Education extends Component {
                   <div className="col-6 margin-bottom50 margin-top50">
                     <div className="col-3 icon-block"><i className="fa fa-laptop"></i></div>
                     <div className="flot-left">
-                      <h5>National Chiao-Tung University</h5>
-                      <h4>Exchange Student</h4>
-                      <span></span><br />
+                      <h4>National Chiao-Tung University</h4>
+                      <h5>Nanotechnology</h5>
+                      <h5>Exchange Student</h5>
+                      <span>Hsinchu, Taiwan</span><br />
                       <span>2010 - 2011</span>
                     </div>
                   </div>
@@ -54,9 +57,10 @@ export default class Education extends Component {
                   <div className="col-6 margin-bottom50 margin-top50">
                     <div className="col-3 icon-block"><i className="fa fa-life-bouy"></i></div>
                     <div className="flot-left">
-                      <h5>Fudan University</h5>
-                      <h4>Bachelor of Science</h4>
-                      <span>Micro-Electronics</span> <br />
+                      <h4>Fudan University</h4>
+                      <h5>Micro-Electronics</h5>
+                      <h5>B.S.</h5>
+                      <span>Shanghai, China</span><br />
                       <span>2004 - 2005</span>
                     </div>
                   </div>
