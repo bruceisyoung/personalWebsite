@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactPlayer from 'react-player';
-// var Video = React.createFactory(require('react-video'));
+
 //http://pic.chinadaily.com.cn/2016-01/11/content_23019739_7.htm
 export default class Projects extends Component {
   render() {
@@ -9,11 +9,8 @@ export default class Projects extends Component {
         <div className='inner'>
           <h2>Projects</h2>
           <div className='title-divider'></div>
-          
-
-
           <div >
-            <ReactPlayer url='https://youtu.be/Xs4z3ZtFDxg'/>
+            <ReactPlayer url='https://youtu.be/Xs4z3ZtFDxg' controls={true}/>
             <h3 className='projectTitle'>MadSweepers</h3>
             <p className='brief'>real-time multiplayer game combining Contra and Minesweepers, utilizing React / Redux as Front-end framework, node / express as back-end framework and socket.io as communication protocol</p>
             <ul className='bulletPoints'>
@@ -32,8 +29,6 @@ export default class Projects extends Component {
               <li><span>Implemented unit testing and integration testing by mocha, chai, sinon, enzyme</span></li>
             </ul>
           </div>
-
-
           <div >
             <h3 className='projectTitle'>Jamz</h3>
             <p className='brief'>An IOS app designed to help users to setup and accomplish goals and cultivate accountability</p>
