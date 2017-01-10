@@ -44,7 +44,7 @@ export default class Projects extends Component {
 
 
           <div >
-            <ReactPlayer url='https://youtu.be/tx7B8MA7wyU' controls={true} />
+            <ReactPlayer url='https://youtu.be/tx7B8MA7wyU' controls={true} playbackRate={2}/>
             <h3 className='projectTitle'>Meal.Next</h3>
             <p className='brief'>All-in-one IOS app to find recipes, build grocery list, check nutrition info and calories consumption</p>
             <ul className='bulletPoints'>
