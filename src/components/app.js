@@ -6,6 +6,7 @@ import Home from '../pages/home'
 import Portfolio from '../pages/portfolio';
 import Skills from '../pages/skills';
 import Projects from '../pages/projects';
+import Experience from '../pages/experience';
 import Education from '../pages/education';
 import Contact from '../pages/contact';
 import End from '../pages/end';
@@ -43,6 +44,7 @@ export default class App extends Component {
             <Portfolio />
             <Skills />
             <Projects />
+            <Experience />
             <Education />
             <Contact />
             <End />

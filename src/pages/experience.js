@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 export default class Experience extends Component {
   render() {
     return (
-      <article class="content experience gray-bg" id="chapterexperience">
+      <article class="content portfolio gray-bg" id="chapterexperience">
         <div class="inner">
           <h2>Experience</h2>
           <div class="title-divider"></div>
