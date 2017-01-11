@@ -37,6 +37,11 @@ export default class App extends Component {
             <a href='#chaptertravelfood'><span id='link_travelfood'>Travel & Food</span></a>
             <a href='#chaptercontact'><span id='link_contact'>Contact</span></a>
       		</nav>
+          <div className="social">
+            <a href="https://linkedin.com/in/bruceisyoung" target="_blank" className="facebook"><i className="fa fa-linkedin-square"></i></a>
+            <a href="https://github.com/bruceisyoung" target="_blank" className="twitter"><i className="fa fa-github"></i></a>
+            <a href="https://facebook.com/bruceisyoung" target="_blank" className="google-plus"><i className="fa fa-facebook-square"></i></a>
+          </div>
       	</aside>
       	<div className='content-scroller'>
           <div className='content-wrapper'>
