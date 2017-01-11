@@ -8,7 +8,15 @@ export default class Contact extends Component {
           <h2>Contact</h2>
           <div className='title-divider'></div>
           <h3>Let's Keep In Touch</h3>
-          <p>Say Something</p>
+          <p>
+          This is me, Sheng (Bruce) Yang. I love working as a Front-End/Full-Stack software engineer. I am and will continuously be 
+          looking to perfect to skills for fun and my career. Feel free to reach out to me for job opportunities or just say hi or 
+          want to discuss about full-stack technologies(spoiler alert: React/Redux is currently my favorite). <br />
+          Also I love travel and food a lot. If you are interested in my travel plan in 2017 and have something fun to suggest, please 
+          friend me! And if you just want to find someone to have meals together around San Francisco, I am always open to dinner out 
+          and have a drink. Ordering a lot of food and share them with friends is another passion of mine. <br />
+          I am a proud moderate democratic supporter, shoot me a message if you want to find someone to talk about politics. 
+          </p>
           <div className="full-divider"></div>
           <div className="contact-con margin-top50">
             <div className="container-sub">
@@ -19,7 +27,7 @@ export default class Contact extends Component {
                       <div className="col-2 icon-block address"><i className="fa fa-map-marker"></i></div>
                       <div className="flot-left"> 
                         <strong>Sheng Yang</strong><br />
-                        Low Nob Hill, San Francisco<br />
+                        Lower Nob Hill, San Francisco<br />
                         CA, 94109, United States. 
                       </div>
                     </div>
@@ -40,14 +48,12 @@ export default class Contact extends Component {
                   </div>
                   <div className="col-6 m-margin-top30">
                     <h3>I'm also on Social Networks</h3>
-                    Find me on linkedin, github, stack-overflow and facebook. Feel free to reach out to me for potenital job opportunities
+                    Find me on linkedin, github, stack-overflow and facebook. Feel free to reach out to me for potenital job opportunities or friend me or stalk me.
                     <div className="contact-social margin-top30">
                       <a href="https://www.linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-linkedin-square"></i></a> 
                       <a href="https://www.github.com/bruceisyoung" target="_blank"><i className="fa fa-github"></i></a>
                       <a href="https://www.linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-stack-overflow"></i></a>
                       <a href="https://www.facebook.com/profile.php?id=100008482389505" target="_blank"><i className="fa fa-facebook-square"></i></a> 
-                      
-                      
                     </div>
                   </div>
                 </div>
