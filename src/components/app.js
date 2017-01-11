@@ -21,7 +21,7 @@ export default class App extends Component {
         {/* navigation menu on the left */}
       	<aside id='menu' className='menu'>
           <div className='logo'>
-            <img src='./src/images/logo.png' width='140' height='140' alt/>
+            <img src='./src/assets/images/logo.png' width='140' height='140' alt/>
             <span>Sheng Yang</span>
           </div>
           {/* mobile navigation */}
