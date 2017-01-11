@@ -40,13 +40,14 @@ export default class Contact extends Component {
                   </div>
                   <div className="col-6 m-margin-top30">
                     <h3>I'm also on Social Networks</h3>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor.
+                    Find me on linkedin, github, stack-overflow and facebook. Feel free to reach out to me for potenital job opportunities
                     <div className="contact-social margin-top30">
-                      <a href="https://www.facebook.com" target="_blank"><i className="fa fa-facebook"></i></a> 
-                      <a href="https://twitter.com" target="_blank"><i className="fa fa-twitter"></i></a> 
-                      <a href="https://www.youtube.com" target="_blank"><i className="fa fa-youtube"></i></a>
-                      <a href="https://plus.google.com" target="_blank"><i className="fa fa-google-plus"></i></a>
-                      <a href="https://www.linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-linkedin"></i></a> 
+                      <a href="https://www.linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-linkedin-square"></i></a> 
+                      <a href="https://www.github.com/bruceisyoung" target="_blank"><i className="fa fa-github"></i></a>
+                      <a href="https://www.linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-stack-overflow"></i></a>
+                      <a href="https://www.facebook.com/profile.php?id=100008482389505" target="_blank"><i className="fa fa-facebook-square"></i></a> 
+                      
+                      
                     </div>
                   </div>
                 </div>
