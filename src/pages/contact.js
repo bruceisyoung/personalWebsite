@@ -50,10 +50,10 @@ export default class Contact extends Component {
                     <h3>I'm also on Social Networks</h3>
                     Find me on linkedin, github, stack-overflow and facebook. Feel free to reach out to me for potenital job opportunities or friend me or stalk me.
                     <div className="contact-social margin-top30">
-                      <a href="https://www.linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-linkedin-square"></i></a> 
-                      <a href="https://www.github.com/bruceisyoung" target="_blank"><i className="fa fa-github"></i></a>
-                      <a href="https://www.linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-stack-overflow"></i></a>
-                      <a href="https://www.facebook.com/profile.php?id=100008482389505" target="_blank"><i className="fa fa-facebook-square"></i></a> 
+                      <a href="https://linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-linkedin-square"></i></a> 
+                      <a href="https://github.com/bruceisyoung" target="_blank"><i className="fa fa-github"></i></a>
+                      <a href="https://linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-stack-overflow"></i></a>
+                      <a href="https://facebook.com/bruceisyoung" target="_blank"><i className="fa fa-facebook-square"></i></a> 
                     </div>
                   </div>
                 </div>
