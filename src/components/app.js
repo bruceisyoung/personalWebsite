@@ -8,6 +8,7 @@ import Skills from '../pages/skills';
 import Projects from '../pages/projects';
 import Experience from '../pages/experience';
 import Education from '../pages/education';
+import TravelFood from '../pages/travel&food';
 import Contact from '../pages/contact';
 import End from '../pages/end';
 
@@ -51,6 +52,7 @@ export default class App extends Component {
             <Projects />
             <Experience />
             <Education />
+            <TravelFood />
             <Contact />
             <End />
           </div>
