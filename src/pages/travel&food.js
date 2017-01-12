@@ -31,7 +31,7 @@ export default class TravelFood extends Component {
                         <figure>
                           <img src="./src/assets/images/neworleans.jpg" alt=""/>
                           <figcaption>
-                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                            <div className="figcaption-details"> <img src="../src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>New Orleans, Louisiana, USA</h3>
                               <span>hahaha</span>
                             </div>
@@ -42,7 +42,7 @@ export default class TravelFood extends Component {
                         <figure>
                           <img src="./src/assets/images/philadelphia.jpg" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                            <div className="figcaption-details"> <img src="../src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Philadelphia, Pennsylvania, USA</h3>
                               <span>Photography</span>
                             </div>
@@ -53,7 +53,7 @@ export default class TravelFood extends Component {
                         <figure>
                           <img src="./src/assets/images/vancouver.jpg" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                            <div className="figcaption-details"> <img src="../src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Vancouver, British Columbia, Canada</h3>
                               <span>Branding and Identity</span> </div>
                           </figcaption>
@@ -63,7 +63,7 @@ export default class TravelFood extends Component {
                         <figure>
                           <img src="./src/assets/images/guanajuato.png" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                            <div className="figcaption-details"> <img src="../src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Guanajuato, Mexico</h3>
                               <span>APPS and Web Design</span> </div>
                           </figcaption>
@@ -73,7 +73,7 @@ export default class TravelFood extends Component {
                         <figure>
                           <img src="./src/assets/images/kyoto.jpg" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                            <div className="figcaption-details"> <img src="../src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Kyoto, Japan</h3>
                               <span>Branding and Identity</span> </div>
                           </figcaption>
@@ -92,11 +92,14 @@ export default class TravelFood extends Component {
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, 						ullamco craft beer.</p>
                           </figcaption>
                           <div id="owl-demo1" className="owl-carousel">
-                            <div className="item"><img src="images/work-details1.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work-details2.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work-details3.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work-details4.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work-details5.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans1.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans2.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans3.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans4.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans5.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans6.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans7.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/neworleans8.jpg" alt="" /></div>
                           </div>
                         </figure>
                       </li>
