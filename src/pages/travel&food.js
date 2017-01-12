@@ -7,11 +7,13 @@ export default class TravelFood extends Component {
         <div className="inner">
           <h2>Travel & Food</h2>
           <div className="title-divider"></div>
-          <h3>Travel and Food is my passion!</h3>
+          <h3>Travel and Food are my passions!</h3>
           <p>
-            I love this world. adfkajlfkjksalfjkjfakldjfkasjfkajfjakfjkasjfalksfjkal <br />
-            Travel Plan for 2017
+            I value exploring this beautiful world. When I have the opportunity, I research
+            and plan detailed trips to diverse places of interest. I am always thinking about
+            my next adventure in new and exciting destinations all over the world.
           </p>
+          <p>Travel Plan for 2017: </p>
           <ul>
             <li>02.08 - 02.13, New Orleans, LA, US</li>
             <li>05.26 - 05.30, Philadelphia, PA, US</li>
