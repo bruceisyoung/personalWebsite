@@ -9,16 +9,16 @@ export default class TravelFood extends Component {
           <div className="title-divider"></div>
           <h3>Travel and Food is my passion!</h3>
           <p>
-          	I love this world. adfkajlfkjksalfjkjfakldjfkasjfkajfjakfjkasjfalksfjkal <br />
-    				Travel Plan for 2017
-    			</p>
+            I love this world. adfkajlfkjksalfjkjfakldjfkasjfkajfjakfjkasjfalksfjkal <br />
+            Travel Plan for 2017
+          </p>
           <ul>
-        		<li>02.08 - 02.13, New Orleans, LA, US</li>
-        		<li>05.26 - 05.30, Philadelphia, PA, US</li>
-        		<li>07.01 - 07.05, Vancouver & Victoria, Canada</li>
-        		<li>09.09 - 09.17, Guanajuato & Querétaro, Mexico</li>
-        		<li>11.18 - 11.26, Kyoto & Hiroshima, Japan</li>
-        	</ul>
+            <li>02.08 - 02.13, New Orleans, LA, US</li>
+            <li>05.26 - 05.30, Philadelphia, PA, US</li>
+            <li>07.01 - 07.05, Vancouver & Victoria, Canada</li>
+            <li>09.09 - 09.17, Guanajuato & Querétaro, Mexico</li>
+            <li>11.18 - 11.26, Kyoto & Hiroshima, Japan</li>
+          </ul>
           <div className="portfolio-con">
             <div className="container-sub margin-top50">
               <div className="row">
@@ -27,18 +27,18 @@ export default class TravelFood extends Component {
                     <ul className="grid">
                       <li>
                         <figure>
-                        	<img src="./src/assets/images/neworleans.jpg" alt=""/>
+                          <img src="./src/assets/images/neworleans.jpg" alt=""/>
                           <figcaption>
                             <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>New Orleans, Louisiana, USA</h3>
                               <span>hahaha</span>
-                         		</div>
+                            </div>
                           </figcaption>
                         </figure>
                       </li>
                       <li>
                         <figure>
-                        	<img src="./src/assets/images/philadelphia.jpg" alt="" />
+                          <img src="./src/assets/images/philadelphia.jpg" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Philadelphia, Pennsylvania, USA</h3>
@@ -49,7 +49,7 @@ export default class TravelFood extends Component {
                       </li>
                       <li>
                         <figure>
-                        	<img src="./src/assets/images/vancouver.jpg" alt="" />
+                          <img src="./src/assets/images/vancouver.jpg" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Vancouver, British Columbia, Canada</h3>
@@ -59,7 +59,7 @@ export default class TravelFood extends Component {
                       </li>
                       <li>
                         <figure>
-                        	<img src="./src/assets/images/guanajuato.png" alt="" />
+                          <img src="./src/assets/images/guanajuato.png" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Guanajuato, Mexico</h3>
@@ -69,7 +69,7 @@ export default class TravelFood extends Component {
                       </li>
                       <li>
                         <figure>
-                        	<img src="./src/assets/images/kyoto.jpg" alt="" />
+                          <img src="./src/assets/images/kyoto.jpg" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Kyoto, Japan</h3>
@@ -143,9 +143,9 @@ export default class TravelFood extends Component {
                       </li>
                     </ul>
                     <nav>
-                    	<span className="fa nav-prev"></span>
-                    	<span className="fa nav-next"></span>
-                    	<span className="fa nav-close"></span>
+                      <span className="fa nav-prev"></span>
+                      <span className="fa nav-next"></span>
+                      <span className="fa nav-close"></span>
                     </nav>
                   </section>
                 </div>
