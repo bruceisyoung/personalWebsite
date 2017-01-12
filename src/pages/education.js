@@ -1,5 +1,15 @@
 import React, { Component } from 'react';
+// today's dinner choice with oliver: 
+//https://www.yelp.com/biz/hong-kong-east-ocean-seafood-restaurant-emeryville
+//https://www.yelp.com/biz/saigon-seafood-harbor-restaurant-richmond-3
 
+//http://www.wikihow.com/Record-Screen-in-Microsoft-Windows-7
+//http://iopscience.iop.org/article/10.1088/0960-1317/23/9/095025/meta
+//http://ieeexplore.ieee.org/document/6467957/
+//https://www.google.com/search?tbm=pts&hl=en&q=%E6%9D%A8%E7%9B%9B+%E6%9B%BE%E7%A5%A5%E5%AE%87
+//http://patent.ipexl.com/CN/cn201110001653.8.html
+//http://patent.ipexl.com/CN/cn201010610808.3.html
+//http://124.133.52.167/KCMS/detail/detail.aspx?filename=MINI201002025&dbcode=CJFD&dbname=CJFD2010
 export default class Education extends Component {
   render() {
     return (
@@ -15,7 +25,7 @@ export default class Education extends Component {
               <div className="row">
                 <div className="education-details">
                   <div className="col-6 margin-bottom50 margin-top50">
-                    <div className="col-3 icon-block"><i className="fa fa-photo"></i></div>
+                    <div className="col-3 icon-block"><i className="fa fa-laptop"></i></div>
                     <div className="flot-left">
                       <h4>Hack Reactor</h4>
                       <h5>immersive fullstack development program</h5>
@@ -29,7 +39,7 @@ export default class Education extends Component {
                 <div className="full-divider"></div>
                 <div className="education-details">
                   <div className="col-6 margin-bottom50 margin-top50">
-                    <div className="col-3 icon-block"><i className="fa fa-laptop"></i></div>
+                    <div className="col-3 icon-block"><i className="fa fa-graduation-cap"></i></div>
                     <div className="flot-left">
                       <h4>Fudan University</h4>
                       <h5>Micro-Electronics</h5>
@@ -39,17 +49,22 @@ export default class Education extends Component {
                     </div>
                   </div>
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
+                    GPA: 3.80, top3 student<br />
+                    Awarded with People’s Scholarship three times<br />
+                    conducted research on digital microfluidic devices. 
+                    Published several papers in creditedacademic journals and international conferences 
+                    and filed two patents in China:
                     <ul>
-                      <li>GPA: 3.80</li>
-                      <li>top 3 student</li>
-                      <li>published 2 papers in </li>
+                      <li></li>
+                      <li></li>
+                      <li></li>
                     </ul>
                   </div>
                 </div>
                 <div className="full-divider"></div>
                 <div className="education-details">
                   <div className="col-6 margin-bottom50 margin-top50">
-                    <div className="col-3 icon-block"><i className="fa fa-laptop"></i></div>
+                    <div className="col-3 icon-block"><i className="fa fa-paper-plane"></i></div>
                     <div className="flot-left">
                       <h4>National Chiao-Tung University</h4>
                       <h5>Nanotechnology</h5>
@@ -59,13 +74,15 @@ export default class Education extends Component {
                     </div>
                   </div>
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
-                    somdsafdksafskalfsklafksaf
+                    Utilized NI vision development module and LabView programming to measure the 
+                    droplets moving speed by analyzing the experiment <br />
+                    [software demo video link]
                   </div>
                 </div>
                 <div className="full-divider"></div>
                 <div className="education-details">
                   <div className="col-6 margin-bottom50 margin-top50">
-                    <div className="col-3 icon-block"><i className="fa fa-life-bouy"></i></div>
+                    <div className="col-3 icon-block"><i className="fa fa-graduation-cap"></i></div>
                     <div className="flot-left">
                       <h4>Fudan University</h4>
                       <h5>Micro-Electronics</h5>
@@ -75,7 +92,14 @@ export default class Education extends Component {
                     </div>
                   </div>
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
-                    somedkfnaldkfakshfashfjkashf
+                    Awarded with People’s Scholarship three times
+                    Related course: 
+                    <ul>
+                      <li>Computer Architecture</li>
+                      <li>Principle of Microcontroller</li>
+                      <li>Digital Logic</li>
+                      <li>Probability theory</li>
+                    </ul>
                   </div>
                 </div>
               </div>
