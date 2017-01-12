@@ -9,18 +9,16 @@ export default class TravelFood extends Component {
           <div className="title-divider"></div>
           <h3>Travel and Food is my passion!</h3>
           <p>
-          	I love this world. adfkajlfkjksalfjkjfakldjfkasjfkajfjakfjkasjfalksfjkal
-          </p>
-          <p>
-          	Travel Plan for 2017
-          	<ul>
-          		<li>02.08 - 02.13, New Orleans, LA, US</li>
-          		<li>05.26 - 05.30, Philadelphia, PA, US</li>
-          		<li>07.01 - 07.05, Vancouver & Victoria, Canada</li>
-          		<li>09.09 - 09.17, Guanajuato & Querétaro, Mexico</li>
-          		<li>11.18 - 11.26, Kyoto & Hiroshima, Japan</li>
-          	</ul>
-          </p>
+          	I love this world. adfkajlfkjksalfjkjfakldjfkasjfkajfjakfjkasjfalksfjkal <br />
+    				Travel Plan for 2017
+    			</p>
+          <ul>
+        		<li>02.08 - 02.13, New Orleans, LA, US</li>
+        		<li>05.26 - 05.30, Philadelphia, PA, US</li>
+        		<li>07.01 - 07.05, Vancouver & Victoria, Canada</li>
+        		<li>09.09 - 09.17, Guanajuato & Querétaro, Mexico</li>
+        		<li>11.18 - 11.26, Kyoto & Hiroshima, Japan</li>
+        	</ul>
           <div className="portfolio-con">
             <div className="container-sub margin-top50">
               <div className="row">
@@ -28,46 +26,53 @@ export default class TravelFood extends Component {
                   <section className="grid-wrap">
                     <ul className="grid">
                       <li>
-                        <figure> <img src="./src/assets/images/neworleans.jpg" alt=""/>
+                        <figure>
+                        	<img src="./src/assets/images/neworleans.jpg" alt=""/>
                           <figcaption>
-                            <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
-                              <h3>The Flavour Restaurant</h3>
-                              <span>Website Design & Development</span> </div>
+                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>New Orleans, Louisiana, USA</h3>
+                              <span>hahaha</span>
+                         		</div>
                           </figcaption>
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="./src/assets/images/philadelphia.jpg" alt="" />
+                        <figure>
+                        	<img src="./src/assets/images/philadelphia.jpg" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
-                              <h3>Herbal Beauty Salon</h3>
-                              <span>Photography</span> </div>
+                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Philadelphia, Pennsylvania, USA</h3>
+                              <span>Photography</span>
+                            </div>
                           </figcaption>
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="./src/assets/images/vancouver.jpg" alt="" />
+                        <figure>
+                        	<img src="./src/assets/images/vancouver.jpg" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
-                              <h3>Kayra Modelleri</h3>
+                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Vancouver, British Columbia, Canada</h3>
                               <span>Branding and Identity</span> </div>
                           </figcaption>
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="./src/assets/images/guanajuato.png" alt="" />
+                        <figure>
+                        	<img src="./src/assets/images/guanajuato.png" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
-                              <h3>Fashion and You</h3>
+                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Guanajuato, Mexico</h3>
                               <span>APPS and Web Design</span> </div>
                           </figcaption>
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="./src/assets/images/kyoto.jpg" alt="" />
+                        <figure>
+                        	<img src="./src/assets/images/kyoto.jpg" alt="" />
                           <figcaption>
-                            <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
-                              <h3>Whole Food Flour</h3>
+                            <div className="figcaption-details"> <img src="./src/assets/images/icon-plus.png" height="82" width="82" alt="" />
+                              <h3>Kyoto, Japan</h3>
                               <span>Branding and Identity</span> </div>
                           </figcaption>
                         </figure>
@@ -125,7 +130,7 @@ export default class TravelFood extends Component {
                             <span>APPS and Web Design</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
                           </figcaption>
-                          <iframe width="854" height="480" src="//www.youtube.com/embed/ZwzY1o_hB5Y" frameborder="0" allowfullscreen></iframe> </figure>
+                        </figure>
                       </li>
                       <li>
                         <figure>
@@ -137,7 +142,11 @@ export default class TravelFood extends Component {
                           <img src="images/work5.jpg" alt="" /> </figure>
                       </li>
                     </ul>
-                    <nav> <span className="fa nav-prev"></span> <span className="fa nav-next"></span> <span className="fa nav-close"></span> </nav>
+                    <nav>
+                    	<span className="fa nav-prev"></span>
+                    	<span className="fa nav-next"></span>
+                    	<span className="fa nav-close"></span>
+                    </nav>
                   </section>
                 </div>
               </div>
