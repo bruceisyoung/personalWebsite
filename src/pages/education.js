@@ -18,7 +18,7 @@ export default class Education extends Component {
 					<h2>Education</h2>
 					<div className="title-divider"></div>
 					<h3>Just My Education</h3>
-					<p>say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(say something!!!!!!@#$%^&*()(*&^%$#$%^&*(</p>
+					<p>Proud to have been awarded both a bachelors and masters degree in Micro-Electronics. I have had the privilege to learn nanotechnology through an exchange program, and successfully complete an intense course of study in software engineering.</p>
 					<div className="education-con">
             <div className="container-sub">
               <div className="full-divider"></div>
@@ -33,7 +33,8 @@ export default class Education extends Component {
                       <span>2016</span> </div>
                   </div>
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
-                    Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. 
+                    Completed three month immersive fullstack development boot camp with highly rated Hack Reactor.
+                    Below are some unique applications that I created with many of my awesome fellows:
                     <ul>
                       <li>MadSweepers<a href="https://github.com/bruceisyoung/thesis">   [github link]</a></li>
                       <li>Jamz<a href="https://github.com/bruceisyoung/todaysjam">   [github link]</a></li>
@@ -54,10 +55,10 @@ export default class Education extends Component {
                     </div>
                   </div>
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
-                    GPA: 3.80, top3 student<br />
-                    Awarded with People’s Scholarship three times<br />
-                    conducted research on digital microfluidic devices. 
-                    Published several papers in creditedacademic journals and international conferences 
+                    GPA: 3.80, top 3 student<br />
+                    Awarded with People’s Scholarship 3 times<br />
+                    Conducted research on digital microfluidic devices. 
+                    Published several papers in credited academic journals and international conferences 
                     and filed two patents in China:
                     <ul>
                       <li></li>
