@@ -7,20 +7,19 @@ export default class Experience extends Component {
         <div className="inner">
           <h2>Experience</h2>
           <div className="title-divider"></div>
-          <h3>1 Years as Full-Stack Software Engineer </h3>
-          <p>I found my interest and passion in programming in routine jobs as a bio-electronic engineer and started
-          side projects to explore possibilites for my career. Then I joined Hack Reactor to learn the most fantastic
-          and modern full-stack software design technologies and make some awesome applications with other passionate
-          software engineers. I am loving this life!!!
+          <h3>1 Year as Full-Stack Software Engineer </h3>
+          <p>While working as a bio-electronic engineer I tinkered with side projects in software 
+          engineering. Through exploring this avenue as a potential career for myself, I decided to 
+          join Hack Reactor in order to gain more knowledge in modern full-stack 
+          software design technologies. Now with this experience and having created new 
+          applications with other passionate software engineers, I feel that I have finally found 
+          my true calling!
           </p>
-          <h3> 5 Years Experience as an enginner!</h3>
-          <p>Got my bachelar and master degree of Micro-Electronics from <a href='http://www.fudan.edu.cn'>Fudan University</a>. 
-          I am a well-trained engineer with extensive experience 
-          Possesses a Strong Analytical Aptitude
-          Shows an Attention to Detail
-          Has Excellent Communication Skills
-          Is a Team Player
-          problem-solving skills and logic thinking</p>
+          <h3>5 Years Experience as an Enginner!</h3>
+          <p>I got my bachelors and masters degree in Micro-Electronics from <a href='http://www.fudan.edu.cn'>Fudan University</a>. 
+          I am a well-trained engineer with extensive experience. Through this, I have developed a deep attention to detail, problem-solving skills, logical thinking, and a strong analytical aptitude. 
+          Working in groups, I excel at being a team player with successful communication techniques.
+          </p>
           <div className="experience-con">
             <div className="container-sub">
               <div className="full-divider"></div>
@@ -37,10 +36,13 @@ export default class Experience extends Component {
                       <span>2012 - 2016</span> </div>
                   </div>
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
-                  Conducted cutting-edge research on wearable technologies, including algorithm design and modeling of calories expenditure and non-invasive glucose sensing
-                  Hands-on experience on MEMS senser design, simulation and fabrication, products typing and testing, 
-                  Implemented auto-testing of photodiodes and data extraction by enabling the communication between parameter analyzer HP4145 and PC using LabView programming
-                  Published Several Papers on IEEE and SPIE conferences:
+                  I conducted cutting-edge research on wearable technologies, including a unique algorithm 
+                  design and modeling of caloric expenditure and non-invasive glucose sensing. <br />
+                  I have hands-on experience on MEMS senser design, simulation and fabrication, products 
+                  prototyping and testing. I have implemented auto-testing of photodiodes and data extraction 
+                  by enabling the communication between parameter analyzer HP4145 and PC using LabView 
+                  programming. <br />
+                  I have also published several papers on IEEE and SPIE conferences:
                   <ul>
                     <li>
                       Algorithm to calculate human calorie expenditure based on a predicted heat strain model, 
