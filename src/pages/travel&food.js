@@ -5,10 +5,22 @@ export default class TravelFood extends Component {
     return (
       <article className="content portfolio gray-bg" id="chaptertravelfood">
         <div className="inner">
-          <h2>Portfolio</h2>
+          <h2>Travel & Food</h2>
           <div className="title-divider"></div>
-          <h3>Our portfolio features a variety of projects and services</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare sem sed quam tempus aliquet vitae eget dolor. Proin eu ultrices libero. Curabitur vulputate vestibulum elementum. Suspendisse id neque a nibh mollis blandit. Quisque varius eros ac purus dignissim.</p>
+          <h3>Travel and Food is my passion!</h3>
+          <p>
+          	I love this world. adfkajlfkjksalfjkjfakldjfkasjfkajfjakfjkasjfalksfjkal
+          </p>
+          <p>
+          	Travel Plan for 2017
+          	<ul>
+          		<li>02.08 - 02.13, New Orleans, LA, US</li>
+          		<li>05.26 - 05.30, Philadelphia, PA, US</li>
+          		<li>07.01 - 07.05, Vancouver & Victoria, Canada</li>
+          		<li>09.09 - 09.17, Guanajuato & Querétaro, Mexico</li>
+          		<li>11.18 - 11.26, Kyoto & Hiroshima, Japan</li>
+          	</ul>
+          </p>
           <div className="portfolio-con">
             <div className="container-sub margin-top50">
               <div className="row">
@@ -16,7 +28,7 @@ export default class TravelFood extends Component {
                   <section className="grid-wrap">
                     <ul className="grid">
                       <li>
-                        <figure> <img src="images/work1.jpg" alt=""/>
+                        <figure> <img src="./src/assets/images/neworleans.jpg" alt=""/>
                           <figcaption>
                             <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>The Flavour Restaurant</h3>
@@ -25,7 +37,7 @@ export default class TravelFood extends Component {
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="images/work2.jpg" alt="" />
+                        <figure> <img src="./src/assets/images/philadelphia.jpg" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Herbal Beauty Salon</h3>
@@ -34,7 +46,7 @@ export default class TravelFood extends Component {
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="images/work3.jpg" alt="" />
+                        <figure> <img src="./src/assets/images/vancouver.jpg" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Kayra Modelleri</h3>
@@ -43,7 +55,7 @@ export default class TravelFood extends Component {
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="images/work4.jpg" alt="" />
+                        <figure> <img src="./src/assets/images/guanajuato.png" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Fashion and You</h3>
@@ -52,7 +64,7 @@ export default class TravelFood extends Component {
                         </figure>
                       </li>
                       <li>
-                        <figure> <img src="images/work5.jpg" alt="" />
+                        <figure> <img src="./src/assets/images/kyoto.jpg" alt="" />
                           <figcaption>
                             <div className="figcaption-details"> <img src="images/icon-plus.png" height="82" width="82" alt="" />
                               <h3>Whole Food Flour</h3>
