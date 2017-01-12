@@ -87,7 +87,7 @@ export default class TravelFood extends Component {
                       <li>
                         <figure>
                           <figcaption>
-                            <h3>The Flavour Restaurant</h3>
+                            <h3>New Orleans</h3>
                             <span>Website Design & Development</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, 						ullamco craft beer.</p>
                           </figcaption>
@@ -140,11 +140,25 @@ export default class TravelFood extends Component {
                       <li>
                         <figure>
                           <figcaption>
-                            <h3>Whole Food Flour</h3>
+                            <h3>Kyoto</h3>
                             <span>Branding and Identity</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
                           </figcaption>
-                          <img src="images/work5.jpg" alt="" /> </figure>
+                          <div id="owl-demo5" className="owl-carousel">
+                            <div className="item"><img src="../src/assets/images/kyoto1.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto2.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto3.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto4.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto5.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto6.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto7.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto8.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto9.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto10.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto11.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto12.jpg" alt="" /></div>
+                          </div>
+                        </figure>
                       </li>
                     </ul>
                     <nav>
