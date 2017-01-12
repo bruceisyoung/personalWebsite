@@ -27,21 +27,6 @@ export default class Experience extends Component {
               <div className="row">
                 <div className="experience-details">
                   <div className="col-6 margin-bottom50 margin-top50">
-                    <div className="col-3 icon-block"><i className="fa fa-send-o"></i></div>
-                    <div className="flot-left">
-                      <h5>Hack Reactor</h5>
-                      <h4>Full-Stack</h4>
-                      <h4>Software</h4>
-                      <h4>Engineer</h4>
-                      <span>2016 - now</span> </div>
-                  </div>
-                  <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
-                  Phasellus nec gravida purus. Aliquam ac enim vel ipsum consectetur vulputate. Duis quis feugiat neque. Pellentesque eleifend, nisi vel mattis vestibulum, est lacus pretium quam. 
-                  </div>
-                </div>
-                <div className="full-divider"></div>
-                <div className="experience-details">
-                  <div className="col-6 margin-bottom50 margin-top50">
                     <div className="col-3 icon-block"><i className="fa fa-briefcase"></i></div>
                     <div className="flot-left">
                       <h5>International</h5>
@@ -58,29 +43,25 @@ export default class Experience extends Component {
                   Published Several Papers on IEEE and SPIE conferences:
                   <ul>
                     <li>
-                      <span>Algorithm to calculate human calorie expenditure based on a predicted heat strain model</span>
-                      <span>BHI, IEEE-EMBS</span>
-                      <span>2016.02.24</span><br />
-                      <a href='http://ieeexplore.ieee.org/document/7455955/'>article</a><br />
-                      <a href=''>presentation video</a>
+                      Algorithm to calculate human calorie expenditure based on a predicted heat strain model, 
+                      BHI IEEE-EMBS, 2016.02.24<br />
+                      <a href='http://ieeexplore.ieee.org/document/7455955/'>[Article Link]   </a>
+                      <a href=''>[Video Link]</a>
                     </li>
                     <li>
-                      <span>Single chip AWG-based Raman spectroscopy for continuous glucose monitoring</span>
-                      <span>SPIE BioS</span>
-                      <span>2016.03.04</span><br />
-                      <a href='http://spie.org/Publications/Proceedings/Paper/10.1117/12.2213556'>article</a>
+                      Single chip AWG-based Raman spectroscopy for continuous glucose monitoring, SPIE BioS, 
+                      2016.03.04<br />
+                      <a href='http://spie.org/Publications/Proceedings/Paper/10.1117/12.2213556'>[Article Link]</a>
                     </li>
                     <li>
-                      <span>Self-emission glucose monitoring system with single chip guided-mode resonance filters</span>
-                      <span>SPIE BioS</span>
-                      <span>2016.03.04</span><br />
-                      <a href='http://spie.org/Publications/Proceedings/Paper/10.1117/12.2213663'>article</a>
+                      Self-emission glucose monitoring system with single chip guided-mode resonance filters, SPIE BioS, 
+                      2016.03.04<br />
+                      <a href='http://spie.org/Publications/Proceedings/Paper/10.1117/12.2213663'>[Article Link]</a>
                     </li>
                     <li>
-                      <span>Noninvasive Glucose Monitoring by Mid-infrared Self-emission Method</span>
-                      <span>BIODEVICES</span>
-                      <span>2014</span><br />
-                      <a href='http://www.scitepress.org/DigitalLibrary/PublicationsDetail.aspx?ID=u46u0bCbI3s=&t=1'>article</a>
+                      Noninvasive Glucose Monitoring by Mid-infrared Self-emission Method, BIODEVICES, 
+                      2014<br />
+                      <a href='http://www.scitepress.org/DigitalLibrary/PublicationsDetail.aspx?ID=u46u0bCbI3s=&t=1'>[Article Link]</a>
                     </li>
                   </ul>
                   </div>
