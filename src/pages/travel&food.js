@@ -106,11 +106,12 @@ export default class TravelFood extends Component {
                       <li>
                         <figure>
                           <figcaption>
-                            <h3>Herbal Beauty Salon</h3>
+                            <h3>Philadelphia, PA</h3>
                             <span>Photography</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
                           </figcaption>
-                          <img src="images/work2.jpg" alt="" /></figure>
+                          <iframe width="854" height="480" src="//www.youtube.com/embed/M8egp_3ewfs" frameBorder="0" allowFullScreen></iframe>
+                          </figure>
                       </li>
                       <li>
                         <figure>
@@ -131,16 +132,17 @@ export default class TravelFood extends Component {
                       <li>
                         <figure>
                           <figcaption>
-                            <h3>Fashion and You</h3>
-                            <span>APPS and Web Design</span>
+                            <h3>Mexico</h3>
+                            <span>Guanajuato, San Miguel de Allende & Santiago de Querétaro</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
                           </figcaption>
+                          <iframe width="854" height="480" src="//www.youtube.com/embed/ppVHV8Km0Y0" frameBorder="0" allowFullScreen></iframe>
                         </figure>
                       </li>
                       <li>
                         <figure>
                           <figcaption>
-                            <h3>Kyoto</h3>
+                            <h3>Japan</h3>
                             <span>Branding and Identity</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
                           </figcaption>
