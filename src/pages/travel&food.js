@@ -87,9 +87,13 @@ export default class TravelFood extends Component {
                       <li>
                         <figure>
                           <figcaption>
-                            <h3>New Orleans</h3>
-                            <span>Website Design & Development</span>
-                            <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, 						ullamco craft beer.</p>
+                            <h3>New Orleans, LA</h3>
+                            <span>A little bit of Louisiana medley</span>
+                            <p>
+                            Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb
+                            placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis,
+                            ullamco craft beer.
+                            </p>
                           </figcaption>
                           <div id="owl-demo1" className="owl-carousel">
                             <div className="item"><img src="../src/assets/images/neworleans1.jpg" alt="" /></div>
@@ -107,8 +111,12 @@ export default class TravelFood extends Component {
                         <figure>
                           <figcaption>
                             <h3>Philadelphia, PA</h3>
-                            <span>Photography</span>
-                            <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
+                            <span>Independence Hall & liberty bell</span>
+                            <p>
+                              A visit to Independence Hall in Philadelphia, the birthplace of American democracy and the Declaration of Independence. 
+                              I think this is best way to remind ourselves why we love USA so much, freedom and equality. And it would encourage us to
+                              stay strong for the next four years and fight for our future.
+                            </p>
                           </figcaption>
                           <iframe width="854" height="480" src="//www.youtube.com/embed/M8egp_3ewfs" frameBorder="0" allowFullScreen></iframe>
                           </figure>
@@ -116,16 +124,17 @@ export default class TravelFood extends Component {
                       <li>
                         <figure>
                           <figcaption>
-                            <h3>Kayra Modelleri</h3>
-                            <span>Branding and Identity</span>
+                            <h3>British Columbia</h3>
+                            <span>Vancouver & Vi</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
                           </figcaption>
                           <div id="owl-demo2" className="owl-carousel">
-                            <div className="item"><img src="images/work3.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work1.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work2.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work4.jpg" alt="" /></div>
-                            <div className="item"><img src="images/work5.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/vancouver1.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/vancouver2.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/vancouver3.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/vancouver4.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/vancouver5.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/vancouver6.jpg" alt="" /></div>
                           </div>
                         </figure>
                       </li>
@@ -146,7 +155,7 @@ export default class TravelFood extends Component {
                             <span>Branding and Identity</span>
                             <p>Kale chips lomo biodiesel stumptown Godard Tumblr, mustache sriracha tattooed cray aute slow-carb placeat delectus. Letterpress asymmetrical fanny pack art party est pour-over skateboard anim quis, ullamco craft beer.</p>
                           </figcaption>
-                          <div id="owl-demo5" className="owl-carousel">
+                          <div id="owl-demo3" className="owl-carousel">
                             <div className="item"><img src="../src/assets/images/kyoto1.jpg" alt="" /></div>
                             <div className="item"><img src="../src/assets/images/kyoto2.jpg" alt="" /></div>
                             <div className="item"><img src="../src/assets/images/kyoto3.jpg" alt="" /></div>
