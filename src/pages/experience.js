@@ -48,7 +48,7 @@ export default class Experience extends Component {
                       Algorithm to calculate human calorie expenditure based on a predicted heat strain model, 
                       BHI IEEE-EMBS, 2016.02.24<br />
                       <a href='http://ieeexplore.ieee.org/document/7455955/'>[Article Link]   </a>
-                      <a href=''>[Video Link]</a>
+                      <a href='https://youtu.be/v720WjKfpYM'>[Video Link]</a>
                     </li>
                     <li>
                       Single chip AWG-based Raman spectroscopy for continuous glucose monitoring, SPIE BioS, 
