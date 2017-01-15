@@ -610,10 +610,6 @@ a.totop-link {
    #About Screen
    ========================================================================== */
 
-.about {
-    background: url(../images/about.jpg) no-repeat 100% 0  #474645;
-    background-size: cover;
-}
 .about .inner {
     width: 50%
 }
@@ -642,10 +638,6 @@ a.totop-link {
     position: inherit;
     top: auto;
     margin: 20px 0 0 0;
-}
-
-#chapterportfolio, #chapterportfolio a, #chapterportfolio h2, #chapterportfolio h4 {
-  color: #eeeeee;
 }
 
 /* ==========================================================================

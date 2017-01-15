@@ -44,7 +44,6 @@ $(window).load(function() {
 					// Only add custom scroll to articles if screen size > 715.
 					// If not the articles will be expanded
 					if( $(window).width() > 767 ) {
-						
 						$(window).on('load', function() {
 							$articles.jScrollPane( scrollOptions );
 						});
@@ -179,7 +178,6 @@ $(window).load(function() {
 										aJSP		= $article.data( 'jsp' );
 									
 									if( $(window).width() > 767 ) {
-										
 										( aJSP === undefined ) ? $(window).on('load', function() {$article.jScrollPane( scrollOptions )}) : aJSP.reinitialise();
 										
 										_initArticleEvents();
@@ -197,8 +195,15 @@ $(window).load(function() {
 									
 								});
 								
-								var nJSP = $menu.children( 'nav' ).data( 'jsp' );
-								(nJSP === undefined) ? $(window).on('load', function() {$menu.children( 'nav' ).jScrollPane( scrollOptions )}) : nJSP.reinitialise();
+								$(window).on('load', function() {
+									console.log('xxxx');
+									var nJSP = $menu.children( 'nav' ).data( 'jsp' );
+									(nJSP === undefined) ? $menu.children( 'nav' ).jScrollPane( scrollOptions ) : nJSP.reinitialise();
+								});
+								// var nJSP = $menu.children( 'nav' ).data( 'jsp' );
+								// console.log('nJSP: ', nJSP);
+								// console.log($menu.children( 'nav' ));
+								// (nJSP === undefined) ? $(window).on('load', function() {$menu.children( 'nav' ).jScrollPane( scrollOptions )}) : nJSP.reinitialise();
 								
 								// jumps to the current chapter
 								_goto();
