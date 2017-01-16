@@ -44,6 +44,7 @@ export default class App extends Component {
             <a href="https://facebook.com/bruceisyoung" target="_blank" className="google-plus"><i className="fa fa-facebook-square"></i></a>
           </div>
       	</aside>
+        <a href='#menu' className='totop-link'>Go to the top</a>
       	<div className='content-scroller'>
           <div className='content-wrapper'>
             <Home />
