@@ -55,17 +55,18 @@ $(window).on('load', function() {
 /* ==========================================================================
  #Mobile Menu
  ========================================================================== */
-
-var $menu = $('#menu1'),
-        $menulink = $('.menu-link');
-$menulink.click(function () {
+$(window).on('load', function() {
+  var $menu = $('#menu1'),
+  $menulink = $('.menu-link');
+  $menulink.click(function () {
     $menulink.toggleClass('active');
     $menu.toggleClass('active');
     return false;
-});
+  });
 
-$('nav#menu1 a').click(function () {
+  $('nav#menu1 a').click(function () {
     $('#menu1').removeClass('active');
+  });
 });
 
 
