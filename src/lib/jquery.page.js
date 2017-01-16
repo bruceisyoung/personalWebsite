@@ -196,7 +196,6 @@ $(window).load(function() {
 								});
 								
 								$(window).on('load', function() {
-									console.log('xxxx');
 									var nJSP = $menu.children( 'nav' ).data( 'jsp' );
 									(nJSP === undefined) ? $menu.children( 'nav' ).jScrollPane( scrollOptions ) : nJSP.reinitialise();
 								});
