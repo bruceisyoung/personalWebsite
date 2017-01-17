@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactPlayer from 'react-player';
 
 //http://pic.chinadaily.com.cn/2016-01/11/content_23019739_7.htm
 export default class Projects extends Component {
@@ -10,7 +9,7 @@ export default class Projects extends Component {
           <h2>Projects</h2>
           <div className='title-divider'></div>
           <div >
-            <ReactPlayer url='https://youtu.be/Xs4z3ZtFDxg' controls={true}/>
+            <iframe width="854" height="480" src="//www.youtube.com/embed/Xs4z3ZtFDxg" frameBorder="0" allowFullScreen></iframe>
             <h3 className='projectTitle'>MadSweepers</h3>
             <p className='brief'>real-time multiplayer game combining Contra and Minesweepers, utilizing React / Redux as Front-end framework, node / express as back-end framework and socket.io as communication protocol</p>
             <ul className='bulletPoints'>
@@ -29,31 +28,31 @@ export default class Projects extends Component {
               <li><span>Implemented unit testing and integration testing by mocha, chai, sinon, enzyme</span></li>
             </ul>
           </div>
-          <div >
-            <h3 className='projectTitle'>Jamz</h3>
-            <p className='brief'>An IOS app designed to help users to setup and accomplish goals and cultivate accountability</p>
-            <ul className='bulletPoints'>
-              <li><span>Built modular and performant user interface with React Native and Exponent</span></li>
-              <li><span>Utilized Node, Express and MongoDB to construct back-end to store and serve user data, including authentication information, personal goals and check-in history
-</span></li>
-              <li><span>Constructed APIs on server side and enabled the communication between front-end and back-end through RESTful requests</span></li>
-              <li><span>Automatically updated and deployed server, using heroku and CircleCI</span></li>
-              <li><span>Increased unit and integration test coverage using Mocha, Chai</span></li>
-            </ul>
-          </div>
-
 
           <div >
             <h3> </h3>
-            <ReactPlayer url='https://youtu.be/tx7B8MA7wyU' controls={true} playbackRate={2}/>
+            <iframe width="854" height="480" src="//www.youtube.com/embed/tx7B8MA7wyU" frameBorder="0" allowFullScreen></iframe>
             <h3 className='projectTitle'>Meal.Next</h3>
             <p className='brief'>All-in-one IOS app to find recipes, build grocery list, check nutrition info and calories consumption</p>
             <ul className='bulletPoints'>
               <li><span>Used NativeBase to polish the user interface for rendering native IOS app views</span></li>
               <li><span>Integrated local storage to persist user profile information and preferences between sessions</span></li>
               <li><span>Enabled seamless transitions between Front-end views with Exponent navigation bar</span></li>
-              <li><span>Employed various React-Native components to implement interactive and visual user features, including drawer, swipeout, keyboardAvoidingView, search bar, loading spinner and chart
-</span></li>
+              <li><span>Employed various React-Native components to implement interactive and visual user features, including drawer, swipeout, keyboardAvoidingView, search bar, loading spinner and chart</span></li>
+            </ul>
+          </div>
+
+           <div >
+            <h3> </h3>
+            <iframe width="854" height="480" src="//www.youtube.com/embed/SgTgcXYEDLY" frameBorder="0" allowFullScreen></iframe>
+            <h3 className='projectTitle'>Jamz</h3>
+            <p className='brief'>An IOS app designed to help users to setup and accomplish goals and cultivate accountability</p>
+            <ul className='bulletPoints'>
+              <li><span>Built modular and performant user interface with React Native and Exponent</span></li>
+              <li><span>Utilized Node, Express and MongoDB to construct back-end to store and serve user data, including authentication information, personal goals and check-in history</span></li>
+              <li><span>Constructed APIs on server side and enabled the communication between front-end and back-end through RESTful requests</span></li>
+              <li><span>Automatically updated and deployed server, using heroku and CircleCI</span></li>
+              <li><span>Increased unit and integration test coverage using Mocha, Chai</span></li>
             </ul>
           </div>
 
