@@ -9,7 +9,7 @@ export default class Projects extends Component {
           <h2>Projects</h2>
           <div className='title-divider'></div>
           <div >
-            <iframe width="854" height="480" src="//www.youtube.com/embed/Xs4z3ZtFDxg" frameBorder="0" allowFullScreen></iframe>
+            <iframe width="854" height="480" src="//youtube.com/embed/Xs4z3ZtFDxg" frameBorder="0" allowFullScreen></iframe>
             <h3 className='projectTitle'>MadSweepers</h3>
             <p className='brief'>real-time multiplayer game combining Contra and Minesweepers, utilizing React / Redux as Front-end framework, node / express as back-end framework and socket.io as communication protocol</p>
             <ul className='bulletPoints'>
@@ -31,7 +31,7 @@ export default class Projects extends Component {
 
           <div >
             <h3> </h3>
-            <iframe width="854" height="480" src="//www.youtube.com/embed/tx7B8MA7wyU" frameBorder="0" allowFullScreen></iframe>
+            <iframe width="854" height="480" src="//youtube.com/embed/tx7B8MA7wyU" frameBorder="0" allowFullScreen></iframe>
             <h3 className='projectTitle'>Meal.Next</h3>
             <p className='brief'>All-in-one IOS app to find recipes, build grocery list, check nutrition info and calories consumption</p>
             <ul className='bulletPoints'>
@@ -44,7 +44,7 @@ export default class Projects extends Component {
 
            <div >
             <h3> </h3>
-            <iframe width="854" height="480" src="//www.youtube.com/embed/SgTgcXYEDLY" frameBorder="0" allowFullScreen></iframe>
+            <iframe width="854" height="480" src="//youtube.com/embed/SgTgcXYEDLY" frameBorder="0" allowFullScreen></iframe>
             <h3 className='projectTitle'>Jamz</h3>
             <p className='brief'>An IOS app designed to help users to setup and accomplish goals and cultivate accountability</p>
             <ul className='bulletPoints'>

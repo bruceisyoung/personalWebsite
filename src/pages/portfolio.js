@@ -16,11 +16,11 @@ export default class Portfolio extends Component {
               <li>Nationality: China (US Green Card)</li>
             </ul>
             <h3>Professional Profile</h3>
-            <p>Enthusiastic full-stack software engineer who has extensive knowledge and 
-            experience in test-driven development of web / mobile applications with different 
-            frameworks, including React / Redux, React Native, Angular, Node.js. Currently 
-            seeking an opportunity within an innovative company that challenges to perfect 
-            skills and support professional development.</p>
+            <p>Enthusiastic full-stack software engineer with extensive knowledge and 
+            training in test-driven development of web / mobile applications with different 
+            frameworks. Experience with React / Redux, React Native, Angular, Node.js.  
+            Seeking opportunities with innovative companies to further grow my  
+            skills and support my professional development.</p>
             <a href='../src/assets/files/Resume.pdf' className='button'>Download resume as PDF format</a>
           </div>
         </div>
