@@ -1,15 +1,5 @@
 import React, { Component } from 'react';
-// today's dinner choice with oliver: 
-//https://www.yelp.com/biz/hong-kong-east-ocean-seafood-restaurant-emeryville
-//https://www.yelp.com/biz/saigon-seafood-harbor-restaurant-richmond-3
 
-//http://www.wikihow.com/Record-Screen-in-Microsoft-Windows-7
-//http://iopscience.iop.org/article/10.1088/0960-1317/23/9/095025/meta
-//http://ieeexplore.ieee.org/document/6467957/
-//https://www.google.com/search?tbm=pts&hl=en&q=%E6%9D%A8%E7%9B%9B+%E6%9B%BE%E7%A5%A5%E5%AE%87
-//http://patent.ipexl.com/CN/cn201110001653.8.html
-//http://patent.ipexl.com/CN/cn201010610808.3.html
-//http://124.133.52.167/KCMS/detail/detail.aspx?filename=MINI201002025&dbcode=CJFD&dbname=CJFD2010
 export default class Education extends Component {
   render() {
     return (
@@ -61,9 +51,32 @@ export default class Education extends Component {
                     Published several papers in credited academic journals and international conferences 
                     and filed two patents in China:
                     <ul>
-                      <li></li>
-                      <li></li>
-                      <li></li>
+                      <li>
+                        Superhydrophobic ZnO for EWOD Digital Microfluidic Device for Application 
+                        in Micro Total Analysis System (μ-TAS)<br />
+                        <a href='http://www.tandfonline.com/doi/abs/10.1163/156856111X600451'>[Article Link]</a>
+                      </li>
+                      <li>
+                        Fabrication and analysis of super-hydrophobic ZnO film for microfluidic devices<br />
+                        <a href='http://ieeexplore.ieee.org/document/5667582/'>[Article Link]</a>
+                      </li>
+                      <li>
+                        Microfabrication of a digital microfluidic platform integrated with an on-chip 
+                        electrochemical cell<br />
+                        <a href='http://iopscience.iop.org/article/10.1088/0960-1317/23/9/095025'>[Article Link]</a>
+                      </li>
+                      <li>
+                        A monolithic lab-on-a-chip for electrochemical detection<br />
+                        <a href='http://ieeexplore.ieee.org/document/6467957/'>[Article Link]</a>
+                      </li>
+                      <li>
+                        An Electrochemical Sensor Chip with Digital Microfluidic Technology<br />
+                        <a href='https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://www.google.com/patents/CN102175744A%3Fcl%3Dzh%26dq%3D%25E6%259D%25A8%25E7%259B%259B%2B%25E6%259B%25BE%25E7%25A5%25A5%25E5%25AE%2587&prev=search'>[Patent Link]</a>
+                      </li>
+                      <li>
+                        A super-hydrophobic biochip and its optical detection method<br />
+                        <a href='https://translate.google.com/translate?hl=en&sl=zh-CN&u=https://www.google.com/patents/CN102147366A%3Fcl%3Dzh%26dq%3D%25E6%259D%25A8%25E7%259B%259B%2B%25E6%259B%25BE%25E7%25A5%25A5%25E5%25AE%2587&prev=search'>[Patent Link]</a>
+                      </li>
                     </ul>
                   </div>
                 </div>
