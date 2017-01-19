@@ -95,7 +95,7 @@ export default class Education extends Component {
                   <div className="col-6 margin-bottom50 margin-top50 no-margin-top"> 
                     Utilized NI vision development module and LabView programming to measure the 
                     droplets moving speed by analyzing the experiment <br />
-                    [software demo video link]
+                    <a href='http://youtu.be/diq0Gg1D8z4'>[software demo video link]</a>
                   </div>
                 </div>
                 <div className="full-divider"></div>
