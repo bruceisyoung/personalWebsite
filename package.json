@@ -18,6 +18,12 @@
   "bugs": {
     "url": "https://github.com/bruceisyoung/personalWebsite/issues"
   },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
   "homepage": "https://github.com/bruceisyoung/personalWebsite#readme",
   "dependencies": {
     "babel-core": "^6.21.0",
