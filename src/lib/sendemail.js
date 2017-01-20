@@ -49,7 +49,9 @@ $(document).ready(function(){
       $("#name").val('');
       $("#email").val('');
       $("#message").val('');
-      // $("#successmsg").remove();
+      setTimeout(function() {
+        $("#successmsg").remove();
+      }, 8000);
     } else {
       return false;
     }
