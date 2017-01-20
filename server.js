@@ -1,6 +1,10 @@
 var express = require('express');
 var path = require('path');
 var bodyParser = require('body-parser');
+var nodemailer = require('nodemailer');
+
+var emailCredentials = require('./emailCredentials');
+
 var port = process.env.PORT || 8080;
 var app = express();
 
@@ -15,11 +19,29 @@ app.get('*', (req, res) => {
 });
 
 app.post('/message', (req, res) => {
-	console.log('somebody is posting');
-	console.log('reqxxxxxxxx: ', req);
-	console.log('bodyxxxxxxx: ',req.body);
-	console.log('dataxxxxxxx: ', req.data);
-	console.log('keysxxxxxxx', Object.keys(req));
+  var transporter = nodemailer.createTransport({
+  	service: 'Gmail',
+  	auth: {
+  		user: emailCredentials.email,
+  		pass: emailCredentials.password
+  	}
+  });
+  var mailOptions = {
+  	from: emailCredentials.email,
+  	to: 'isyoung.bruce@gmail.com',
+  	subject: req.body.name + ' said Hi',
+  	text: 'email: ' + req.body.email + '\n' + 'message: ' + req.body.message
+  };
+
+  transporter.sendMail(mailOptions, function(error, info) {
+  	if (error) {
+  		console.log(error);
+  		res.json('Something went wrong');
+  	} else {
+  		console.log('Message sent: ' + info.response);
+  		res.json('Your message is sent.\nI will contact you as soon as possible!')
+  	}
+  });
 });
 
 app.listen(port);
