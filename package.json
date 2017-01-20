@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "build": "webpack -p",
-    "postinstall": "npm install \"webpack -p\"",
+    "postinstall": "npm install | webpack -p",
     "start": "node server.js"
   },
   "repository": {
