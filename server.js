@@ -3,8 +3,6 @@ var path = require('path');
 var bodyParser = require('body-parser');
 var nodemailer = require('nodemailer');
 
-var emailCredentials = require('./emailCredentials');
-
 var port = process.env.PORT || 8080;
 var app = express();
 
@@ -22,8 +20,8 @@ app.post('/message', (req, res) => {
   var transporter = nodemailer.createTransport({
   	service: 'Gmail',
   	auth: {
-  		user: emailCredentials.email,
-  		pass: emailCredentials.password
+  		user: process.env.email,
+  		pass: process.env.password
   	}
   });
   var mailOptions = {
