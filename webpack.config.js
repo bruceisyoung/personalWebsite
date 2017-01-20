@@ -1,3 +1,13 @@
+const webpack = require('webpack'),
+  path = require('path'),
+  fs = require('fs')
+
+const SRC = path.resolve(__dirname, "src"),
+  NODE_MODULES = path.resolve(__dirname, "node_modules")
+
+/* babel */
+const babelSettings = JSON.parse(fs.readFileSync(".babelrc"))
+
 const config = {
   entry: [
     './src/index.js'
