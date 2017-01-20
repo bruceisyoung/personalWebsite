@@ -51,7 +51,7 @@ export default class Contact extends Component {
                     <div className="contact-social margin-top30">
                       <a href="https://linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-linkedin-square"></i></a> 
                       <a href="https://github.com/bruceisyoung" target="_blank"><i className="fa fa-github"></i></a>
-                      <a href="https://linkedin.com/in/bruceisyoung" target="_blank"><i className="fa fa-stack-overflow"></i></a>
+                      <a href="https://stackoverflow.com/users/6780044/bruce-isyoung" target="_blank"><i className="fa fa-stack-overflow"></i></a>
                       <a href="https://facebook.com/bruceisyoung" target="_blank"><i className="fa fa-facebook-square"></i></a> 
                     </div>
                   </div>
