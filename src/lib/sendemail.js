@@ -40,7 +40,7 @@ $(document).ready(function(){
       console.log('data: ', $("#form1").serialize());
       $.ajax({
         type: "POST",
-        url: "http://localhost:8080/message",
+        url: "http://www.bruceisyoung.com/message",
         data:$("#form1").serialize(),
         success:function(result){
         $("#successmsg").html(result);
