@@ -6,9 +6,6 @@ var nodemailer = require('nodemailer');
 var port = process.env.PORT || 8080;
 var app = express();
 
-console.log('password: ', process.env.email);
-console.log('email: ', process.env.password);
-
 app.use( bodyParser.json() );       // to support JSON-encoded bodies
 app.use(bodyParser.urlencoded({     // to support URL-encoded bodies
   extended: true
@@ -28,7 +25,7 @@ app.post('/message', (req, res) => {
   	}
   });
   var mailOptions = {
-  	from: emailCredentials.email,
+  	from: process.env.email,
   	to: 'isyoung.bruce@gmail.com',
   	subject: req.body.name + ' said Hi',
   	text: 'email: ' + req.body.email + '\n' + 'message: ' + req.body.message
