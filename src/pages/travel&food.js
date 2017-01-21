@@ -165,6 +165,8 @@ export default class TravelFood extends Component {
                             <div className="item"><img src="../src/assets/images/kyoto4.jpg" alt="" /></div>
                             <div className="item"><img src="../src/assets/images/kyoto5.jpg" alt="" /></div>
                             <div className="item"><img src="../src/assets/images/kyoto6.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto7.jpg" alt="" /></div>
+                            <div className="item"><img src="../src/assets/images/kyoto8.jpg" alt="" /></div>
                           </div>
                         </figure>
                       </li>
