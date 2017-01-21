@@ -17,3 +17,7 @@ what you would need to pay attention to during deployment
 1  inside heroku, you need to set the environment parameter(email & password), so the leave a message function can run correctly  
 
 images: 
+![alt tag](http://www.bruceisyoung.com/src/assets/images/screenshot1.jpg)
+![alt tag](http://www.bruceisyoung.com/src/assets/images/screenshot2.jpg)
+![alt tag](http://www.bruceisyoung.com/src/assets/images/screenshot3.jpg)
+![alt tag](http://www.bruceisyoung.com/src/assets/images/screenshot4.jpg)
