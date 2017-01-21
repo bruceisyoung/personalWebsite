@@ -4,6 +4,7 @@ node_modules
 # production
 build
 bundle.js
+bundle.js.map
 emailCredentials.js
 
 # misc
