@@ -1,3 +1,4 @@
+// load all the files needed for scroll functions
 head.js(
   { mousewheel: './src/lib/jquery.mousewheel.js' },
   { mwheelIntent: './src/lib/mwheelIntent.js' },

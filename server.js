@@ -37,7 +37,7 @@ app.post('/message', (req, res) => {
   		res.json('Something went wrong');
   	} else {
   		console.log('Message sent: ' + info.response);
-  		res.json('Your message is sent.\nI will contact you as soon as possible!')
+  		res.json('Your message is sent. ');
   	}
   });
 });
