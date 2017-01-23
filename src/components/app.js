@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import Menu from './menu';
-
 import Home from '../pages/home'
 import Portfolio from '../pages/portfolio';
 import Skills from '../pages/skills';
@@ -11,9 +9,6 @@ import Education from '../pages/education';
 import TravelFood from '../pages/travel&food';
 import Contact from '../pages/contact';
 import End from '../pages/end';
-
-
-const pages = ['home', 'portfolio', 'skills', 'projects', 'experience', 'education', 'travelfood', 'contact'];
 
 export default class App extends Component {
   render() {
