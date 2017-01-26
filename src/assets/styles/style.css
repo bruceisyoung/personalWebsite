@@ -441,15 +441,15 @@ h5 {
 .social a:hover {
     color: #fff;
 }
-.social .facebook {
-    color: #5a7eca
+.social .linkedin {
+    color: #03acf1
 }
-.social .twitter {
-    color: #03acf1;
+.social .github {
+    color: #ccc;
     margin: 0 26px 0 30px
 }
-.social .google-plus {
-    color: #df4a32
+.social .facebook {
+    color: #5a7eca
 }
 .copyright {
     position: absolute;
